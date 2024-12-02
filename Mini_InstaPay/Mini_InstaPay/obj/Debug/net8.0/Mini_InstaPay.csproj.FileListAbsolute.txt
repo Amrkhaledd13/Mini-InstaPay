@@ -1,0 +1,15 @@
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/bin/Debug/net8.0/Mini_InstaPay
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/bin/Debug/net8.0/Mini_InstaPay.deps.json
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/bin/Debug/net8.0/Mini_InstaPay.runtimeconfig.json
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/bin/Debug/net8.0/Mini_InstaPay.dll
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/bin/Debug/net8.0/Mini_InstaPay.pdb
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.GeneratedMSBuildEditorConfig.editorconfig
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.AssemblyInfoInputs.cache
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.AssemblyInfo.cs
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.csproj.CoreCompileInputs.cache
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.sourcelink.json
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.dll
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/refint/Mini_InstaPay.dll
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.pdb
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/Mini_InstaPay.genruntimeconfig.cache
+/Users/omar/DesignPattern project/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/Debug/net8.0/ref/Mini_InstaPay.dll
