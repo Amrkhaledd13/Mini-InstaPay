@@ -75,14 +75,15 @@ namespace Mini_InstaPay
             string userId = Guid.NewGuid().ToString(); // Generate a unique ID
 
             User newUser = new User
-            {
-                Id = userId,
-                Name = name,
-                Email = email,
-                Phone = phone,
-                Address = address,
-                PasswordHash = hashedPassword
-            };
+            (
+                 userId,
+                 name,
+                email,
+                phone,
+                address,
+                hashedPassword
+               
+            );
             // Console.WriteLine(hashedPassword);
             RegisteredUsers[email] = newUser; // Add to in-memory storage
             Console.WriteLine($"User registered successfully. User ID: {userId}");
@@ -98,14 +99,21 @@ namespace Mini_InstaPay
 
             User user = RegisteredUsers[email];
             string computedHash = HashPassword(password, saltBytes);
-            //Console.WriteLine(computedHash);
-            if (computedHash == user.PasswordHash)
+            if (user.Suspended)
             {
-                Console.WriteLine($"Login successful! Welcome, {user.Name}.");
+                Console.WriteLine("This account is suspended");
             }
             else
             {
-                Console.WriteLine("Invalid email or password.");
+                //Console.WriteLine(computedHash);
+                if (computedHash == user.PasswordHash)
+                {
+                    Console.WriteLine($"Login successful! Welcome, {user.Name}.");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid email or password.");
+                }
             }
         }
         public void UpdateProfile(string email, string? newName = null, string? newAddress = null, string? newPhone = null)

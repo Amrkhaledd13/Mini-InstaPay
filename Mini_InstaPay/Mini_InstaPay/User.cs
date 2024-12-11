@@ -14,6 +14,16 @@ namespace Mini_InstaPay
     public string Phone { get; set; }
     public string Address {  get; set; }
     public string PasswordHash { get; set; }
+     public bool Suspended { get; set; }
+     public User(string iD,string name,string email,string phone,string address,string passwordHash) { 
+        Id=iD;
+            Name=name;
+            Email=email;
+            Phone=phone;
+            Address=address;
+            PasswordHash=passwordHash;
+            Suspended = false;
+        }
 
     }
 }

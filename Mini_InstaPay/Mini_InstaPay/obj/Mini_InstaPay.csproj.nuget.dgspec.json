@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {}
+    "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {}
   },
   "projects": {
-    "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {
+    "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+        "projectUniqueName": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
         "projectName": "Mini_InstaPay",
-        "projectPath": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\obj\\",
+        "projectPath": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+        "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
