@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿// Example Usage
 using Mini_InstaPay;
 

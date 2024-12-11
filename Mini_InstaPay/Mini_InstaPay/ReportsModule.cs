@@ -121,5 +121,57 @@ report.Display();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*  THIS WILL BE WRITTEN IN MAIN
+IReportBuilder builder = new TransactionSummaryBuilder();
+ReportDirector director = new ReportDirector(builder);
+
+director.BuildReport();
+Report report = director.GetReport();
+
+report.Display();
+*/
+
     }
 }
