@@ -9,7 +9,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Mini_InstaPay
 {
-    internal class UserModule
+    internal class ReportsModule
     {
         public class Report
         {
@@ -110,6 +110,58 @@ namespace Mini_InstaPay
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*  THIS WILL BE WRITTEN IN MAIN
+IReportBuilder builder = new TransactionSummaryBuilder();
+ReportDirector director = new ReportDirector(builder);
+
+director.BuildReport();
+Report report = director.GetReport();
+
+report.Display();
+*/
 
     }
 }
