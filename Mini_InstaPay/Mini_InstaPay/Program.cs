@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿// Example Usage
 using Mini_InstaPay;
 
@@ -78,3 +79,5 @@ public class Program
         }
     }
 }
+
+

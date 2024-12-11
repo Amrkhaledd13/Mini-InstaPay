@@ -1,0 +1,15 @@
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.AssemblyInfoInputs.cache
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.AssemblyInfo.cs
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.csproj.CoreCompileInputs.cache
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.sourcelink.json
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.exe
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.deps.json
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.runtimeconfig.json
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.dll
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.pdb
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.dll
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\refint\Mini_InstaPay.dll
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.pdb
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.genruntimeconfig.cache
+C:\Users\ATG\Desktop\Dpatterns\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\ref\Mini_InstaPay.dll
