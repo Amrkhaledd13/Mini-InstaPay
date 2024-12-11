@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mini_InstaPay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3923ffe550b3cd1d4e101f1c86c864a2c72a6b68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+476ab6a242abc62c212cec63375365109d4b4ce1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mini_InstaPay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mini_InstaPay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
