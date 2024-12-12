@@ -1,0 +1,15 @@
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.exe
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.deps.json
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.runtimeconfig.json
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.dll
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\bin\Debug\net8.0\Mini_InstaPay.pdb
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.GeneratedMSBuildEditorConfig.editorconfig
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.AssemblyInfoInputs.cache
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.AssemblyInfo.cs
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.csproj.CoreCompileInputs.cache
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.sourcelink.json
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.dll
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\refint\Mini_InstaPay.dll
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.pdb
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\Mini_InstaPay.genruntimeconfig.cache
+F:\Mini-InstaPay\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net8.0\ref\Mini_InstaPay.dll
