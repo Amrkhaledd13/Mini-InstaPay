@@ -1,0 +1,8 @@
+{
+    "omnisharp.useModernNet": true,
+    "omnisharp.path": "latest",
+    "omnisharp.projectLoadTimeout": 60,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true,
+    "csharp.format.enable": true,
+    "csharp.suppressDotnetRestoreNotification": true
+}

@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!123");
+﻿using System;
+
+
+namespace MiniInstaPay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            TwoFactorAuthManager manager = new TwoFactorAuthManager();
+            manager.Authenticate();
+        }
+    }
+}
