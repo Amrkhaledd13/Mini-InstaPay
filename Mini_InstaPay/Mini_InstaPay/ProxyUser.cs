@@ -56,19 +56,19 @@ namespace Mini_InstaPay
         }
         byte[] saltBytes = GenerateSalt();
 
-        public void Register(string name, string email, string password, string address, string phone)
+        public string Register(string name, string email, string password, string address, string phone)
         {
             if (!ValidEmailRegex.IsMatch(email))
             {
-                throw new Exception("Invalid email format.");
+                return "Invalid email format.";
             }
             if (Usersprogram.UsersWithEmail.ContainsKey(email))
             {
-                throw new Exception("This email already exists.");
+                return "This email already exists.";
             }
             if (password.Length < 8)
             {
-                throw new Exception("Password must be at least 8 characters long.");
+                return "Password must be at least 8 characters long.";
             }
 
             byte[] salt = GenerateSalt();
@@ -80,7 +80,7 @@ namespace Mini_InstaPay
             // Console.WriteLine(hashedPassword);
             Usersprogram.UsersWithEmail[email] = newUser; // Add to in-memory storage
             Usersprogram.UsersWithPhone[phone] = newUser; // Add to in-memory storage
-            Console.WriteLine($"User registered successfully. User ID: {userId}");
+            return $"User registered successfully. User ID: {userId}";
         }
 
         public User Login(string email, string password)
