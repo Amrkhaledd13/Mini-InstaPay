@@ -1,82 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\",
+  "WorkspaceRootPath": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\converters\\istextemptyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\converters\\istextemptyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\mini_instapay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\mini_instapay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\mini_instapay.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\viewmodels\\welcomepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\viewmodels\\welcomepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\realuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\realuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -85,32 +17,70 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\MainViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\realuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\realuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\system_bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\system_bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\system_bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\mini-instapay\\mini-instapay\\mini_instapay\\mini_instapay\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|f:\\pr\\mini-instapay\\mini_instapay\\mini_instapay\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4A62906-B9F1-4471-844C-6257C59BECBB}|Mini_InstaPay\\Mini_InstaPay.csproj|solutionrelative:mini_instapay\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -120,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -132,240 +102,190 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\views\\RegisterPage.xaml",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml",
-              "RelativeToolTip": "Mini_InstaPay\\views\\RegisterPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-14T21:33:57.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WelcomePage.xaml",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\views\\WelcomePage.xaml",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml",
-              "RelativeToolTip": "Mini_InstaPay\\views\\WelcomePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-14T21:31:43.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\MainWindow.xaml",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\MainWindow.xaml",
-              "RelativeToolTip": "Mini_InstaPay\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T23:47:05.127Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Program.cs",
+              "RelativeDocumentMoniker": "Mini_InstaPay\\Program.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Program.cs",
+              "RelativeToolTip": "Mini_InstaPay\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:38:57.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IsTextEmptyConverter.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Converters\\IsTextEmptyConverter.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\Converters\\IsTextEmptyConverter.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Converters\\IsTextEmptyConverter.cs",
-              "RelativeToolTip": "Mini_InstaPay\\Converters\\IsTextEmptyConverter.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T22:36:50.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\MainWindow.xaml.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Mini_InstaPay\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAhwBgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T23:47:13.721Z",
-              "EditorCaption": ""
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\RegisterPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-14T21:33:57.582Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\views\\LoginPage.xaml",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml",
-              "RelativeToolTip": "Mini_InstaPay\\views\\LoginPage.xaml",
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-14T21:34:24.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BankAccounts.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\BankAccounts.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\BankAccounts.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\BankAccounts.cs",
-              "RelativeToolTip": "Mini_InstaPay\\BankAccounts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:12:43.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T18:05:42.692Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\App.xaml",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\App.xaml",
-              "RelativeToolTip": "Mini_InstaPay\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-13T18:05:42.692Z",
-              "EditorCaption": ""
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T22:21:12.823Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\views\\LoginPage.xaml.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Mini_InstaPay\\views\\LoginPage.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T22:21:12.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\MainViewModel.cs",
               "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "Mini_InstaPay\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\MainViewModel.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:39:21.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T21:39:21.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Mini_InstaPay.csproj",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
               "RelativeDocumentMoniker": "Mini_InstaPay\\Mini_InstaPay.csproj",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
               "RelativeToolTip": "Mini_InstaPay\\Mini_InstaPay.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-12T23:07:42.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:40:42.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA8wBwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:40:09.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WelcomePageViewModel.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
-              "RelativeToolTip": "Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:50:17.22Z",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AQIAAPwAAAAAAAAAAAASwAkBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-12T23:59:28.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "BankAccounts.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\BankAccounts.cs",
+              "RelativeDocumentMoniker": "Mini_InstaPay\\BankAccounts.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\BankAccounts.cs",
+              "RelativeToolTip": "Mini_InstaPay\\BankAccounts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:12:43.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:40:42.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA8wBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:40:09.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WelcomePageViewModel.cs",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\WelcomePageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:50:17.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "WelcomePage.xaml.cs",
               "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\views\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml.cs",
               "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml.cs",
-              "RelativeToolTip": "Mini_InstaPay\\views\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\views\\WelcomePage.xaml.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:48:39.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T21:48:39.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowBkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:40:25.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs",
+              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs",
+              "RelativeToolTip": "..\\..\\..\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T21:43:17.528Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Mini_InstaPay\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAowBkAAAAFAAAA",
+              "Title": "RealUser.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RealUser.cs",
+              "RelativeDocumentMoniker": "Mini_InstaPay\\RealUser.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RealUser.cs",
+              "RelativeToolTip": "Mini_InstaPay\\RealUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:40:25.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T18:33:51.79Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\RelayCommand.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RelayCommand.cs",
-              "RelativeToolTip": "Mini_InstaPay\\RelayCommand.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T21:43:17.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RealUser.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RealUser.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\RealUser.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\RealUser.cs",
-              "RelativeToolTip": "Mini_InstaPay\\RealUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T18:33:51.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "ProxyUser.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ProxyUser.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ProxyUser.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\ProxyUser.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ProxyUser.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\ProxyUser.cs",
               "RelativeToolTip": "Mini_InstaPay\\ProxyUser.cs",
               "ViewState": "AQIAAD4AAACAmZmZmZkwwFIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,17 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AQIAAPsAAAAAAAAAAAAtwAkBAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-12T23:59:28.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "Microsoft.NET.Sdk.DefaultItems.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
@@ -393,23 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Program.cs",
-              "RelativeDocumentMoniker": "Mini_InstaPay\\Program.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Program.cs",
-              "RelativeToolTip": "Mini_InstaPay\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:38:57.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 17,
               "Title": "Transactions.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Transactions.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Transactions.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\Transactions.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Transactions.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Transactions.cs",
               "RelativeToolTip": "Mini_InstaPay\\Transactions.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -417,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 18,
               "Title": "Sendmoney_Proxy.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Sendmoney_Proxy.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Sendmoney_Proxy.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\Sendmoney_Proxy.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Sendmoney_Proxy.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Sendmoney_Proxy.cs",
               "RelativeToolTip": "Mini_InstaPay\\Sendmoney_Proxy.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAxwA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -429,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 19,
               "Title": "System_BankAccounts.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\System_BankAccounts.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\System_BankAccounts.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\System_BankAccounts.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\System_BankAccounts.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\System_BankAccounts.cs",
               "RelativeToolTip": "Mini_InstaPay\\System_BankAccounts.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -441,11 +339,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "User.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\User.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\User.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\User.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\User.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\User.cs",
               "RelativeToolTip": "Mini_InstaPay\\User.cs",
               "ViewState": "AQIAAFcAAAAAAAAAAAAswGgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -453,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "transferMoney.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\transferMoney.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\transferMoney.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\transferMoney.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\transferMoney.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\transferMoney.cs",
               "RelativeToolTip": "Mini_InstaPay\\transferMoney.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAwCUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -465,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 22,
               "Title": "Users.cs",
-              "DocumentMoniker": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Users.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Users.cs",
               "RelativeDocumentMoniker": "Mini_InstaPay\\Users.cs",
-              "ToolTip": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Users.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Users.cs",
               "RelativeToolTip": "Mini_InstaPay\\Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

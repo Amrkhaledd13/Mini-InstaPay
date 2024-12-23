@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini_InstaPay", "Mini_InstaPay\Mini_InstaPay.csproj", "{A4A62906-B9F1-4471-844C-6257C59BECBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mini_InstaPay", "Mini_InstaPay\Mini_InstaPay.csproj", "{A4A62906-B9F1-4471-844C-6257C59BECBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI-mini_insta", "..\GUI-mini_insta\GUI-mini_insta.csproj", "{B4FD5FC2-5B8A-4E1E-982B-664D2D8125B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A4A62906-B9F1-4471-844C-6257C59BECBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A62906-B9F1-4471-844C-6257C59BECBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4A62906-B9F1-4471-844C-6257C59BECBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FD5FC2-5B8A-4E1E-982B-664D2D8125B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FD5FC2-5B8A-4E1E-982B-664D2D8125B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FD5FC2-5B8A-4E1E-982B-664D2D8125B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FD5FC2-5B8A-4E1E-982B-664D2D8125B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
