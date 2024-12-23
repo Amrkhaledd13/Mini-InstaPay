@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {}
+    "/Users/omar/DesignpatternprojectV2/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/Mini_InstaPay.csproj": {}
   },
   "projects": {
-    "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {
+    "/Users/omar/DesignpatternprojectV2/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/Mini_InstaPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+        "projectUniqueName": "/Users/omar/DesignpatternprojectV2/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/Mini_InstaPay.csproj",
         "projectName": "Mini_InstaPay",
-        "projectPath": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\obj\\",
+        "projectPath": "/Users/omar/DesignpatternprojectV2/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/Mini_InstaPay.csproj",
+        "packagesPath": "/Users/omar/.nuget/packages/",
+        "outputPath": "/Users/omar/DesignpatternprojectV2/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/omar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -38,22 +36,13 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
-          "dependencies": {
-            "MaterialDesignColors": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "MaterialDesignThemes": {
-              "target": "Package",
-              "version": "[5.1.0, )"
-            }
-          },
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -68,12 +57,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

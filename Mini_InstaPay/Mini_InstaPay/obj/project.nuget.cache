@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dnxOB+JpIF7VS1C/qEruR48lEoVHSszREDfiLedhsWmCuGXeWTonPiP/mXOoAZagJB964whM+8oN7xW3gFLF/Q==",
+  "dgSpecHash": "rGPqC6sedIo=",
   "success": true,
-  "projectFilePath": "F:\\Mini-InstaPay\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\materialdesigncolors\\3.1.0\\materialdesigncolors.3.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\materialdesignthemes\\5.1.0\\materialdesignthemes.5.1.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/omar/DesignpatternprojectV2/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/Mini_InstaPay.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
