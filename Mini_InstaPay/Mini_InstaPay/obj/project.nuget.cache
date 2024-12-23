@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Jl6GzajxzEM=",
+  "dgSpecHash": "Na/sgPNz31o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ATG\\Desktop\\Dpatterns\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/omar/DesignPattern V1/Mini-InstaPay/Mini_InstaPay/Mini_InstaPay/Mini_InstaPay.csproj",
+  "expectedPackageFiles": [
+    "/Users/omar/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/omar/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/omar/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.11/microsoft.netcore.app.host.osx-arm64.8.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
