@@ -96,9 +96,9 @@ namespace Mini_InstaPay
             //Console.WriteLine(computedHash);
             if (computedHash == user.PasswordHash)
             {
-                Console.WriteLine($"Login successful! Welcome, {user.Name}.");
                 TwoFactorAuthManager authManager = new TwoFactorAuthManager();
                 authManager.Authenticate();
+                Console.WriteLine($"Login successful! Welcome, {user.Name}.");
                 return user;
             }
             else
