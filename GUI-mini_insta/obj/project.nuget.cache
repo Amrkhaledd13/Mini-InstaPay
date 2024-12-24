@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/rN1QsiEXcqPdgfOj+N3rrBFCepiMfaqWa1Q4FlWL7w4FO6KfttmWhpaNB49h/wgUmers81Jfl7l8WEIsvuvbQ==",
+  "dgSpecHash": "dJVH2Rt6IospQ4nPpn5qGHISsB46q4DIRdxaind/M4M+ycwIUQTZCezEg+7AKVyfVAZQk/p/dOXXeU1FqKMvSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+  "projectFilePath": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+    "C:\\Users\\ali khaled\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ali khaled\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ali khaled\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\ali khaled\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }
