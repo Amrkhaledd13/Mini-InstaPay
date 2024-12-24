@@ -88,8 +88,6 @@ namespace Mini_InstaPay
             Usersprogram.UsersWithEmail[email] = newUser;
             Usersprogram.UsersWithPhone[phone] = newUser;
 
-            MessageBox.Show(email + "----------" + password + "-----------------", "email");
-            MessageBox.Show(userId, "Success");
             return $"User registered successfully. User ID: {userId}";
         }
 

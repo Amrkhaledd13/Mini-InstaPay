@@ -735,5 +735,75 @@ namespace GUI_mini_insta
             btnLogout.BackColor = SystemColors.Control;
             btnLogout.ForeColor = SystemColors.ControlText;
         }
+
+        private void customer_Service_Click(object sender, EventArgs e)
+        {
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "Customer Service",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(300, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Label for the TextBox
+            Label lblDescription = new Label
+            {
+                Text = "Describe Your Issue:",
+                Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                ForeColor = Color.Black,
+                Location = new Point(20, 70),
+                Size = new Size(200, 25)
+            };
+            panelContent.Controls.Add(lblDescription);
+
+            // TextBox for user's problem
+            TextBox txtProblem = new TextBox
+            {
+                Location = new Point(20, 100),
+                Size = new Size(panelContent.Width - 300, 200), // Adjust size to fit panel width
+                Multiline = true,
+                ScrollBars = ScrollBars.Vertical, // Enable vertical scrolling
+                Font = new Font("Segoe UI", 10F, FontStyle.Regular)
+            };
+            panelContent.Controls.Add(txtProblem);
+
+            // Send Button
+            Button btnSend = new Button
+            {
+                Text = "Send",
+                Location = new Point(20, 320),
+                Size = new Size(100, 40),
+                BackColor = Color.LightSkyBlue,
+                Font = new Font("Segoe UI", 10F, FontStyle.Regular),
+                //FlatStyle = FlatStyle.Flat
+            };
+
+            // Add click event for the Send button
+            btnSend.Click += (s, args) =>
+            {
+                if (string.IsNullOrWhiteSpace(txtProblem.Text))
+                {
+                    MessageBox.Show("Please describe your issue before sending.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Handle sending the problem to the admin
+                string userProblem = txtProblem.Text;
+                MessageBox.Show("Your issue has been sent successfully.\n\nIssue Details:\n" + userProblem,
+                    "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Optionally clear the TextBox after sending
+                txtProblem.Clear();
+            };
+
+            panelContent.Controls.Add(btnSend);
+        }
     }
 }

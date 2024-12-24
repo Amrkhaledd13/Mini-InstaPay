@@ -37,6 +37,8 @@
             label3 = new Label();
             btnVerifyOtp = new Button();
             lblMessage = new Label();
+            lblTitle = new Label();
+            back = new Button();
             SuspendLayout();
             // 
             // txtEmail
@@ -78,6 +80,7 @@
             // 
             txtPassword.Location = new Point(23, 157);
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(245, 23);
             txtPassword.TabIndex = 4;
             // 
@@ -121,11 +124,34 @@
             lblMessage.Visible = false;
             lblMessage.Click += lblMessage_Click;
             // 
+            // lblTitle
+            // 
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTitle.ForeColor = Color.FromArgb(64, 64, 64);
+            lblTitle.Location = new Point(20, 19);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(84, 30);
+            lblTitle.TabIndex = 9;
+            lblTitle.Text = "Sign In";
+            // 
+            // back
+            // 
+            back.Location = new Point(240, 19);
+            back.Name = "back";
+            back.Size = new Size(44, 23);
+            back.TabIndex = 10;
+            back.Text = "Back";
+            back.UseVisualStyleBackColor = true;
+            back.Click += back_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(296, 450);
+            Controls.Add(back);
+            Controls.Add(lblTitle);
             Controls.Add(lblMessage);
             Controls.Add(btnVerifyOtp);
             Controls.Add(label3);
@@ -152,5 +178,7 @@
         private Label label3;
         private Button btnVerifyOtp;
         private Label lblMessage;
+        private Label lblTitle;
+        private Button back;
     }
 }
