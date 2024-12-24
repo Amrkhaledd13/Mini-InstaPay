@@ -47,7 +47,7 @@
             panelSidebar.Dock = DockStyle.Left;
             panelSidebar.Location = new Point(0, 0);
             panelSidebar.Name = "panelSidebar";
-            panelSidebar.Size = new Size(201, 450);
+            panelSidebar.Size = new Size(204, 450);
             panelSidebar.TabIndex = 0;
             // 
             // lblTitle
@@ -157,9 +157,9 @@
             // panelContent
             // 
             panelContent.BackColor = Color.FromArgb(224, 224, 224);
-            panelContent.Location = new Point(192, 0);
+            panelContent.Location = new Point(200, 0);
             panelContent.Name = "panelContent";
-            panelContent.Size = new Size(402, 450);
+            panelContent.Size = new Size(394, 450);
             panelContent.TabIndex = 2;
             // 
             // Dashboard

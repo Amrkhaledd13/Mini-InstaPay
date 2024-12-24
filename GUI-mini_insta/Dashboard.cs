@@ -117,12 +117,176 @@ namespace GUI_mini_insta
 
         private void BtnRemoveAccount_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Remove Account clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "Remove Account",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(300, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Label for ComboBox
+            Label lblSelectCard = new Label
+            {
+                Text = "Select Card:",
+                Location = new Point(20, 70),
+                Size = new Size(100, 30)
+            };
+
+            // ComboBox for user cards
+            ComboBox cmbCards = new ComboBox
+            {
+                Location = new Point(150, 70),
+                Size = new Size(200, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            // Add sample cards (you should replace this with actual data)
+            cmbCards.Items.Add("1234-5678-9012-3456");
+            cmbCards.Items.Add("9876-5432-1098-7654");
+            cmbCards.Items.Add("4567-8901-2345-6789");
+            cmbCards.SelectedIndex = 0; // Select the first item by default
+
+            // Remove Button
+            Button btnRemove = new Button
+            {
+                Text = "Remove",
+                Location = new Point(150, 120),
+                Size = new Size(100, 40),
+                BackColor = Color.Red,
+                //FlatStyle = FlatStyle.Flat
+                ForeColor = Color.White,
+            };
+
+            // Add click event for the Remove button
+            btnRemove.Click += (s, args) =>
+            {
+                if (cmbCards.SelectedItem == null)
+                {
+                    MessageBox.Show("Please select a card to remove.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Handle card removal logic here
+                string selectedCard = cmbCards.SelectedItem.ToString();
+                MessageBox.Show($"Card {selectedCard} removed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Optionally, remove the card from the ComboBox
+                cmbCards.Items.Remove(selectedCard);
+                if (cmbCards.Items.Count > 0)
+                {
+                    cmbCards.SelectedIndex = 0; // Set the first item as selected
+                }
+            };
+
+            // Add controls to the panel
+            panelContent.Controls.Add(lblSelectCard);
+            panelContent.Controls.Add(cmbCards);
+            panelContent.Controls.Add(btnRemove);
         }
+
 
         private void BtnUpdateAccount_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Update Account clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "Update Account",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(300, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Label for ComboBox
+            Label lblSelectCard = new Label
+            {
+                Text = "Select Card:",
+                Location = new Point(20, 70),
+                Size = new Size(100, 30)
+            };
+
+            // ComboBox for user cards
+            ComboBox cmbCards = new ComboBox
+            {
+                Location = new Point(150, 70),
+                Size = new Size(200, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            // Add sample cards (replace with actual data)
+            cmbCards.Items.Add("1234-5678-9012-3456");
+            cmbCards.Items.Add("9876-5432-1098-7654");
+            cmbCards.Items.Add("4567-8901-2345-6789");
+            cmbCards.SelectedIndex = 0; // Select the first item by default
+
+            // Label for account number
+            Label lblAccountNumber = new Label
+            {
+                Text = "Card Number:",
+                Location = new Point(20, 120),
+                Size = new Size(120, 30)
+            };
+
+            // TextBox for account number (editable)
+            TextBox txtAccountNumber = new TextBox
+            {
+                Location = new Point(150, 120),
+                Size = new Size(200, 30),
+                Text = cmbCards.SelectedItem.ToString() // Set initial text from the selected card
+            };
+
+            // Update TextBox placeholder on card selection change
+            cmbCards.SelectedIndexChanged += (s, args) =>
+            {
+                txtAccountNumber.Text = cmbCards.SelectedItem.ToString();
+            };
+
+            // Update Button
+            Button btnUpdate = new Button
+            {
+                Text = "Update",
+                Location = new Point(150, 170),
+                Size = new Size(100, 40),
+                BackColor = Color.LightSkyBlue,
+                //FlatStyle = FlatStyle.Flat
+            };
+
+            // Add click event for the Update button
+            btnUpdate.Click += (s, args) =>
+            {
+                if (string.IsNullOrWhiteSpace(txtAccountNumber.Text))
+                {
+                    MessageBox.Show("Account number cannot be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Handle account update logic here
+                string oldCard = cmbCards.SelectedItem.ToString();
+                string newCard = txtAccountNumber.Text;
+                MessageBox.Show($"Account updated from {oldCard} to {newCard}.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Optionally, update the combo box item
+                int selectedIndex = cmbCards.SelectedIndex;
+                cmbCards.Items[selectedIndex] = newCard;
+            };
+
+            // Add controls to the panel
+            panelContent.Controls.Add(lblSelectCard);
+            panelContent.Controls.Add(cmbCards);
+            panelContent.Controls.Add(lblAccountNumber);
+            panelContent.Controls.Add(txtAccountNumber);
+            panelContent.Controls.Add(btnUpdate);
         }
 
         private void BtnSendWithPhoneNumber_Click(object sender, EventArgs e)
