@@ -60,15 +60,15 @@ namespace Mini_InstaPay
         {
             if (!ValidEmailRegex.IsMatch(email))
             {
-                return "Invalid email format.";
+                throw new Exception("Invalid email format.");
             }
             if (Usersprogram.UsersWithEmail.ContainsKey(email))
             {
-                return "This email already exists.";
+                throw new Exception("This email already exists.");
             }
             if (password.Length < 8)
             {
-                return "Password must be at least 8 characters long.";
+                throw new Exception("Password must be at least 8 characters long.");
             }
 
             byte[] salt = GenerateSalt();
@@ -97,7 +97,7 @@ namespace Mini_InstaPay
             if (computedHash == user.PasswordHash)
             {
                 TwoFactorAuthManager authManager = new TwoFactorAuthManager();
-                authManager.Authenticate();
+                //authManager.Authenticate();
                 Console.WriteLine($"Login successful! Welcome, {user.Name}.");
                 return user;
             }
