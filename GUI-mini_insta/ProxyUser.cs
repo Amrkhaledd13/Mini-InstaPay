@@ -89,8 +89,11 @@ namespace Mini_InstaPay
             Usersprogram.UsersWithPhone[phone] = newUser;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
             MessageBox.Show(userId, "Success");

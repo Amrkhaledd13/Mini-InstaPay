@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -38,6 +39,8 @@ namespace GUI_mini_insta
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -55,6 +58,9 @@ namespace GUI_mini_insta
         }
         public void Undo()
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

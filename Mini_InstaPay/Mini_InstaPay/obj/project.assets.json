@@ -136,7 +136,11 @@
   "packageFolders": {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "C:\\Users\\DELL\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\ali khaled\\.nuget\\packages\\": {}
+>>>>>>> Stashed changes
 =======
     "C:\\Users\\ali khaled\\.nuget\\packages\\": {}
 >>>>>>> Stashed changes
@@ -149,6 +153,7 @@
     "restore": {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "projectUniqueName": "G:\\DP\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
       "projectName": "Mini_InstaPay",
       "projectPath": "G:\\DP\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
@@ -157,6 +162,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "D:\\DPS\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+      "projectName": "Mini_InstaPay",
+      "projectPath": "D:\\DPS\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+      "packagesPath": "C:\\Users\\ali khaled\\.nuget\\packages\\",
+      "outputPath": "D:\\DPS\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ali khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Stashed changes
 =======
       "projectUniqueName": "D:\\DPS\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
       "projectName": "Mini_InstaPay",
@@ -228,7 +243,11 @@
         },
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
 >>>>>>> Stashed changes
