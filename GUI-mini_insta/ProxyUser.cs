@@ -54,6 +54,7 @@ namespace Mini_InstaPay
                 return salt;
             }
         }
+
         byte[] saltBytes = GenerateSalt();
 
         public string Register(string name, string email, string password, string address, string phone)
@@ -71,15 +72,19 @@ namespace Mini_InstaPay
                 throw new Exception("Password must be at least 8 characters long.");
             }
 
-            byte[] salt = GenerateSalt();
             string hashedPassword = HashPassword(password, saltBytes);
             string userId = Guid.NewGuid().ToString(); // Generate a unique ID
 
             User newUser = new User(userId,name,email,phone,address,hashedPassword);
 
             // Console.WriteLine(hashedPassword);
-            Usersprogram.UsersWithEmail[email] = newUser; // Add to in-memory storage
-            Usersprogram.UsersWithPhone[phone] = newUser; // Add to in-memory storage
+            Usersprogram.UsersWithEmail[email] = newUser;
+            Usersprogram.UsersWithPhone[phone] = newUser;
+            //Usersprogram.UsersWithEmail.Add(newUser.Email, newUser); // Add to in-memory storage
+            //Usersprogram.UsersWithPhone.Add(newUser.Phone, newUser); // Add to in-memory storage
+
+            MessageBox.Show(email + "----------" + password + "-----------------", "email");
+            MessageBox.Show(userId, "Success");
             return $"User registered successfully. User ID: {userId}";
         }
 
@@ -91,13 +96,15 @@ namespace Mini_InstaPay
                 return null;
             }
 
+            MessageBox.Show(email + "----------" + password + "-----------------", "email");
             User user = Usersprogram.UsersWithEmail[email];
             string computedHash = HashPassword(password, saltBytes);
-            //Console.WriteLine(computedHash);
+
+            //MessageBox.Show(computedHash + "     " + user.PasswordHash, "User not found");
             if (computedHash == user.PasswordHash)
             {
                 TwoFactorAuthManager authManager = new TwoFactorAuthManager();
-                //authManager.Authenticate();
+                authManager.GetOtp();
                 Console.WriteLine($"Login successful! Welcome, {user.Name}.");
                 return user;
             }
