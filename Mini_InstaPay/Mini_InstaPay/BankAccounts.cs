@@ -11,10 +11,11 @@ namespace Mini_InstaPay
         private string account_number,  Bank_Name, username, userphone, useremail , password;
         private int Amount;
 
-        public  BankAccounts(string _accountnumber,int amount,string bankname) {
+        public  BankAccounts(string _accountnumber,int amount,string bankname , string paraphone) {
             account_number = _accountnumber;
-            Amount = amount;
+            Amount = amount; 
             Bank_Name = bankname;
+            userphone = paraphone;
         }  
         public string getaccountnumber()
         {

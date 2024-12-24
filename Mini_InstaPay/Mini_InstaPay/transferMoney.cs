@@ -17,50 +17,30 @@ namespace Mini_InstaPay
         }
         Users users = Users.getUsers();
         
-        void sendwithphonenumber(User sender,string phonenumber ,int amount ,string bankname)
+    public  void sendwithphonenumber(User sender,string phonenumber ,int amount ,string bankname)
         {
-            EncryptionManager encryptionManager = new EncryptionManager();
-
-              string encryptedAmount = encryptionManager.Encrypt(amount.ToString());
-              string encryptedBankName = encryptionManager.Encrypt(bankname);
-
            User reciever = users.UsersWithPhone[phonenumber];
            BankAccounts account =  reciever.getthedeafult();
            BankAccounts senderaccount =  sender.myaccounts.Find(a => a.getbankname() == bankname);
-
-           
-
-            sender.mytransactions.Add(new Transactions(sender.Email, reciever.Email, int.Parse(encryptionManager.Decrypt(encryptedAmount))));
-            reciever.mytransactions.Add(new Transactions(sender.Email, reciever.Email, int.Parse(encryptionManager.Decrypt(encryptedAmount))));
-
-
-            senderaccount.recieveamout(-int.Parse(encryptionManager.Decrypt(encryptedAmount)));
-            recieve(reciever, account, int.Parse(encryptionManager.Decrypt(encryptedAmount)));
+            sender.mytransactions.Add(new Transactions(sender.Email, reciever.Email, amount));
+            reciever.mytransactions.Add(new Transactions(sender.Email, reciever.Email, amount));
+            senderaccount.recieveamout(-amount);
+           recieve(reciever,account,amount);
         }
-          public  void sendwithaAccountnumber(User sender,string accountnumber,int amount,string bankname)
+     public void sendwithaAccountnumber(User sender,string accountnumber,int amount,string bankname)
         {
-             EncryptionManager encryptionManager = new EncryptionManager();
-
-              string encryptedAmount = encryptionManager.Encrypt(amount.ToString());
-              string encryptedBankName = encryptionManager.Encrypt(bankname);
-
-
+            
             BankAccounts account = System_BankAccounts.bnkacounts[accountnumber];
             User user = users.UsersWithPhone[account.getphone()];
             BankAccounts senderaccount = sender.myaccounts.Find(a => a.getbankname() == bankname);
-
-
-            sender.mytransactions.Add(new Transactions(sender.Email, user.Email, int.Parse(encryptionManager.Decrypt(encryptedAmount))));
-            user.mytransactions.Add(new Transactions(sender.Email, user.Email, int.Parse(encryptionManager.Decrypt(encryptedAmount))));
-
-            senderaccount.recieveamout(-int.Parse(encryptionManager.Decrypt(encryptedAmount)));
-            recieve(user, account, int.Parse(encryptionManager.Decrypt(encryptedAmount)));
+            sender.mytransactions.Add(new Transactions(sender.Email, user.Email, amount));
+            user.mytransactions.Add(new Transactions(sender.Email, user.Email, amount));
+            senderaccount.recieveamout(-amount);
+            recieve(user,account,amount);
         }
 
         void recieve(User receiver,BankAccounts account,int amount) {
             System_BankAccounts.bnkacounts[account.getaccountnumber()].recieveamout(amount);
-            var acc = receiver.myaccounts.Find(a => a.getaccountnumber() == account.getaccountnumber());
-            acc.recieveamout(amount);
         }
     }
 }

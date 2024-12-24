@@ -9,15 +9,15 @@ namespace Mini_InstaPay
 {
     internal class Sendmoney_Proxy
     {
-        public static void sendwithphoneproxy(User sender,int amount,string bankname)
+        public static void sendwithphoneproxy(User sender,int amount,string bankname , string phonenumber)
         {
-            Console.WriteLine("sdadas");
             BankAccounts acc = sender.myaccounts.Find(a => a.getbankname() == bankname);
          
             if (acc != null) {
-                if (acc.getamount() >= amount || sender.getlimit() >= amount)
+                if (acc.getamount() >= amount && sender.getlimit() >= amount)
                 {
                     transferMoney ts = transferMoney.getts();
+                    ts.sendwithphonenumber(sender, phonenumber ,amount , bankname);
                     return; 
                 }
                 else

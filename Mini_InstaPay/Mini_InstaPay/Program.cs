@@ -113,8 +113,9 @@ public class Program
                         Console.Write("Enter Initial Amount: ");
                         int initialAmount = int.Parse(Console.ReadLine());
 
-                        BankAccounts newAccount = new BankAccounts(accountNumber, initialAmount, bankName);
+                        BankAccounts newAccount = new BankAccounts(accountNumber, initialAmount, bankName , loggedInUser.Phone);
                         loggedInUser.Addaccount(newAccount);
+                        Console.WriteLine(System_BankAccounts.bnkacounts[accountNumber].getbankname());
                         Console.WriteLine("Bank account added successfully.");
                     }
                     else if (option.Equals("R", StringComparison.OrdinalIgnoreCase))
@@ -162,7 +163,7 @@ public class Program
                             Console.Write("Enter Your Bank Name: ");
                             string bankName = Console.ReadLine();
 
-                            Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, amount, bankName);
+                            Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, amount, bankName , phone);
                         }
                         else if (method == "2")
                         {
