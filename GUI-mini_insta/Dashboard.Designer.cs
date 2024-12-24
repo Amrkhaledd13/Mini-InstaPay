@@ -28,6 +28,7 @@
             btnMyTransactions = new Button();
             btnLogout = new Button();
             lblFooter = new Label();
+            panelContent = new Panel();
             panelSidebar.SuspendLayout();
             SuspendLayout();
             // 
@@ -153,11 +154,20 @@
             lblFooter.TabIndex = 1;
             lblFooter.Text = "© 2024 Dashboard GUI Design";
             // 
+            // panelContent
+            // 
+            panelContent.BackColor = Color.FromArgb(224, 224, 224);
+            panelContent.Location = new Point(192, 0);
+            panelContent.Name = "panelContent";
+            panelContent.Size = new Size(402, 450);
+            panelContent.TabIndex = 2;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(198, 450);
+            ClientSize = new Size(594, 450);
+            Controls.Add(panelContent);
             Controls.Add(panelSidebar);
             Controls.Add(lblFooter);
             Name = "Dashboard";
@@ -181,5 +191,6 @@
         private Button btnMyTransactions;
         private Button btnLogout;
         private Label lblFooter;
+        private Panel panelContent;
     }
 }
