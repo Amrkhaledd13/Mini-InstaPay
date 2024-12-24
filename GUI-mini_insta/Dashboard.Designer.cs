@@ -29,12 +29,14 @@
             btnLogout = new Button();
             lblFooter = new Label();
             panelContent = new Panel();
+            customer_Service = new Button();
             panelSidebar.SuspendLayout();
             SuspendLayout();
             // 
             // panelSidebar
             // 
             panelSidebar.BackColor = Color.LightSteelBlue;
+            panelSidebar.Controls.Add(customer_Service);
             panelSidebar.Controls.Add(lblTitle);
             panelSidebar.Controls.Add(btnAddAccount);
             panelSidebar.Controls.Add(btnRemoveAccount);
@@ -133,7 +135,7 @@
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(55, 369);
+            btnLogout.Location = new Point(54, 400);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(90, 30);
             btnLogout.TabIndex = 8;
@@ -161,6 +163,16 @@
             panelContent.Name = "panelContent";
             panelContent.Size = new Size(830, 483);
             panelContent.TabIndex = 2;
+            // 
+            // customer_Service
+            // 
+            customer_Service.Location = new Point(20, 340);
+            customer_Service.Name = "customer_Service";
+            customer_Service.Size = new Size(160, 30);
+            customer_Service.TabIndex = 9;
+            customer_Service.Text = "Customer Service";
+            customer_Service.UseVisualStyleBackColor = true;
+            customer_Service.Click += customer_Service_Click;
             // 
             // Dashboard
             // 
@@ -192,5 +204,6 @@
         private Button btnLogout;
         private Label lblFooter;
         private Panel panelContent;
+        private Button customer_Service;
     }
 }
