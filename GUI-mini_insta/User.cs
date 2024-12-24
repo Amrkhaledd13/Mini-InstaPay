@@ -18,6 +18,7 @@ namespace GUI_mini_insta
         public string Phone { get; set; }
         public string Address { get; set; }
         public string PasswordHash { get; set; }
+        public bool suspended { get; set; }
 
         private int limit;
 
@@ -32,6 +33,7 @@ namespace GUI_mini_insta
             Phone = _phone;
             Address = _address;
             PasswordHash = _password;
+            suspended = true;
             limit = 5000; // initial value of limit
         }
 

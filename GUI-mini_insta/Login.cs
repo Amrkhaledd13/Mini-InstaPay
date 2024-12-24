@@ -1,4 +1,5 @@
-﻿using Mini_InstaPay;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using Mini_InstaPay;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,6 +34,12 @@ namespace GUI_mini_insta
 
             if (loggedInUser != null)
             {
+                if (loggedInUser.suspended)
+                {
+                    MessageBox.Show( "You accont is suspended","Error");
+                    lblMessage.Text = "You accont is suspended";
+                    return;
+                }
                 // OTP verification UI
                 txtOtp.Visible = true;
                 btnVerifyOtp.Visible = true;

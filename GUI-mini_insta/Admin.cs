@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< Updated upstream
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -33,6 +34,24 @@ namespace GUI_mini_insta
         }
 
         private void transaction_Click(object sender, EventArgs e)
+=======
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GUI_mini_insta
+{
+    internal class Admin:Command
+    {
+        public Users Usersprogram = Users.getUsers();
+
+        Dictionary<User, string> strings;
+        public void Execute()
+        {
+            
+        }
+        public void Undo()
+>>>>>>> Stashed changes
         {
 
         }

@@ -87,7 +87,11 @@ namespace Mini_InstaPay
 
             Usersprogram.UsersWithEmail[email] = newUser;
             Usersprogram.UsersWithPhone[phone] = newUser;
+<<<<<<< Updated upstream
 
+=======
+            MessageBox.Show(userId, "Success");
+>>>>>>> Stashed changes
             return $"User registered successfully. User ID: {userId}";
         }
 
@@ -107,9 +111,12 @@ namespace Mini_InstaPay
             string storedHash = parts[1];
 
             string computedHash = HashPassword(password, storedSalt);
-
-            if (computedHash == storedHash)
+            if (computedHash == storedHash )
             {
+                if (user.suspended)
+                {
+                    return user;
+                }
                 TwoFactorAuthManager authManager = new TwoFactorAuthManager();
                 authManager.GetOtp();
                 Console.WriteLine($"Login successful! Welcome, {user.Name}.");
