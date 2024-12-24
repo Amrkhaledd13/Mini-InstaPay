@@ -29,7 +29,7 @@ namespace GUI_mini_insta
             notificationFactory.createnotifications("status", $"{amount} pounds were transferred to {phonenumber}",sender.Phone);
            recieve(reciever,account,amount,sender.Phone);
         }
-        void sendwithaAccountnumber(User sender,string accountnumber,int amount,string bankname)
+        public void sendwithaAccountnumber(User sender,string accountnumber,int amount,string bankname)
         {
 
             BankAccounts account = System_BankAccounts.bnkacounts[accountnumber];

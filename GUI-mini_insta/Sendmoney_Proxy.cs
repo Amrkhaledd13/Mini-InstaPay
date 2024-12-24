@@ -9,7 +9,7 @@ namespace GUI_mini_insta
 {
     internal class Sendmoney_Proxy
     {
-        public static void sendwithphoneproxy(User sender, string phone ,int amount,string bankname)
+        public static void sendwithphoneproxy(User sender, string phone_accnum ,int amount,string bankname,bool type)
         {
             
             BankAccounts acc = sender.myaccounts.Find(a => a.getbankname() == bankname);
@@ -18,7 +18,11 @@ namespace GUI_mini_insta
                 if (acc.getamount() >= amount && sender.getlimit() >= amount)
                 {
                     transferMoney ts = transferMoney.getts();
-                    ts.sendwithphonenumber(sender, phone , amount, bankname);
+                    if (!type)
+                    ts.sendwithphonenumber(sender, phone_accnum , amount, bankname);
+                    else
+                    ts.sendwithaAccountnumber(sender, phone_accnum , amount, bankname);
+
                     return; 
                 }
                 else
@@ -40,6 +44,8 @@ namespace GUI_mini_insta
 
         }
 
-        
+       
+
+
     }
 }

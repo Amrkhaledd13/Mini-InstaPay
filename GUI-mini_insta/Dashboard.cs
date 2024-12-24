@@ -151,13 +151,12 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (you should replace this with actual data)
-                cmbCards.Items.Add("amr");
-            for (int i = 0;i < loggedInUser.myaccounts.Count; i++)
+            cmbCards.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
-                string s = loggedInUser.myaccounts[i].getaccountnumber();
-                cmbCards.Items.Add(s);
+                cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber());
             }
-            
+
             cmbCards.SelectedIndex = 0; // Select the first item by default
 
             // Remove Button
@@ -233,15 +232,20 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (replace with actual data)
-            cmbCards.Items.Add("1234-5678-9012-3456");
+            cmbCards.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
+            {
+                cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber());
+            }
+            /*cmbCards.Items.Add("1234-5678-9012-3456");
             cmbCards.Items.Add("9876-5432-1098-7654");
-            cmbCards.Items.Add("4567-8901-2345-6789");
+            cmbCards.Items.Add("4567-8901-2345-6789");*/
             cmbCards.SelectedIndex = 0; // Select the first item by default
 
             // Label for account number
             Label lblAccountNumber = new Label
             {
-                Text = "Card Number:",
+                Text = "Bank Name:",
                 Location = new Point(20, 120),
                 Size = new Size(120, 30)
             };
@@ -257,7 +261,9 @@ namespace GUI_mini_insta
             // Update TextBox placeholder on card selection change
             cmbCards.SelectedIndexChanged += (s, args) =>
             {
-                txtAccountNumber.Text = cmbCards.SelectedItem.ToString();
+                txtAccountNumber.Text = loggedInUser.myaccounts
+    .Find(a => a.getaccountnumber() == cmbCards.SelectedItem.ToString())
+    ?.getbankname() ?? "Bank Name";
             };
 
             // Update Button
@@ -282,11 +288,12 @@ namespace GUI_mini_insta
                 // Handle account update logic here
                 string oldCard = cmbCards.SelectedItem.ToString();
                 string newCard = txtAccountNumber.Text;
+                loggedInUser.updateaccount(cmbCards.SelectedItem.ToString(),newCard);
                 MessageBox.Show($"Account updated from {oldCard} to {newCard}.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Optionally, update the combo box item
-                int selectedIndex = cmbCards.SelectedIndex;
-                cmbCards.Items[selectedIndex] = newCard;
+                /*int selectedIndex = cmbCards.SelectedIndex;
+                cmbCards.Items[selectedIndex] = newCard;*/
             };
 
             // Add controls to the panel
@@ -299,26 +306,442 @@ namespace GUI_mini_insta
 
         private void BtnSendWithPhoneNumber_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Send with Phone Number clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "Send Money with Phone Number",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(400, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Label for ComboBox
+            Label lblBankName = new Label
+            {
+                Text = "Select Bank:",
+                Location = new Point(20, 70),
+                Size = new Size(120, 30)
+            };
+
+            // ComboBox for bank names
+            ComboBox cmbBanks = new ComboBox
+            {
+                Location = new Point(150, 70),
+                Size = new Size(200, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            // Add sample banks (replace with actual data)
+            cmbBanks.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
+            {
+                cmbBanks.Items.Add(loggedInUser.myaccounts[i].getbankname());
+            }
+            cmbBanks.SelectedIndex = 0; // Select the first item by default
+
+            // Label for amount
+            Label lblAmount = new Label
+            {
+                Text = "Amount to Send:",
+                Location = new Point(20, 120),
+                Size = new Size(120, 30)
+            };
+
+            // TextBox for amount
+            TextBox txtAmount = new TextBox
+            {
+                Location = new Point(150, 120),
+                Size = new Size(200, 30)
+            };
+
+            // Label for phone number
+            Label lblPhoneNumber = new Label
+            {
+                Text = "Recipient's Phone:",
+                Location = new Point(20, 170),
+                Size = new Size(120, 30)
+            };
+
+            // TextBox for phone number
+            TextBox txtPhoneNumber = new TextBox
+            {
+                Location = new Point(150, 170),
+                Size = new Size(200, 30)
+            };
+
+            // Send Button
+            Button btnSend = new Button
+            {
+                Text = "Send",
+                Location = new Point(150, 220),
+                Size = new Size(100, 40),
+                BackColor = Color.LightSkyBlue,
+                //FlatStyle = FlatStyle.Flat
+            };
+
+            // Add click event for the Send button
+            btnSend.Click += (s, args) =>
+            {
+                // Validate inputs
+                if (string.IsNullOrWhiteSpace(txtAmount.Text) || string.IsNullOrWhiteSpace(txtPhoneNumber.Text))
+                {
+                    MessageBox.Show("Please fill in all fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!decimal.TryParse(txtAmount.Text, out decimal amount) || amount <= 0)
+                {
+                    MessageBox.Show("Please enter a valid amount.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!long.TryParse(txtPhoneNumber.Text, out long phoneNumber) || txtPhoneNumber.Text.Length != 10)
+                {
+                    MessageBox.Show("Please enter a valid 10-digit phone number.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Handle sending logic here
+                string bankName = cmbBanks.SelectedItem.ToString();
+                Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, txtPhoneNumber.Text , int.Parse(txtAmount.Text) , bankName,false);
+                MessageBox.Show($"Money sent successfully!\n\nBank: {bankName}\nAmount: {amount}\nPhone: {txtPhoneNumber.Text}",
+                    "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(loggedInUser.myaccounts.Find(a => a.getbankname() == bankName).getamount().ToString(),"new");
+            };
+
+            // Add controls to the panel
+            panelContent.Controls.Add(lblBankName);
+            panelContent.Controls.Add(cmbBanks);
+            panelContent.Controls.Add(lblAmount);
+            panelContent.Controls.Add(txtAmount);
+            panelContent.Controls.Add(lblPhoneNumber);
+            panelContent.Controls.Add(txtPhoneNumber);
+            panelContent.Controls.Add(btnSend);
         }
+
 
         private void BtnSendWithAccountNumber_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Send with Account Number clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "Send Money with Account name",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(400, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Label for ComboBox
+            Label lblBankName = new Label
+            {
+                Text = "Select Bank:",
+                Location = new Point(20, 70),
+                Size = new Size(120, 30)
+            };
+
+            // ComboBox for bank names
+            ComboBox cmbBanks = new ComboBox
+            {
+                Location = new Point(150, 70),
+                Size = new Size(200, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList
+            };
+
+            // Add sample banks (replace with actual data)
+            cmbBanks.Items.Add("Bank A");
+            cmbBanks.Items.Add("Bank B");
+            cmbBanks.Items.Add("Bank C");
+            cmbBanks.SelectedIndex = 0; // Select the first item by default
+
+            // Label for amount
+            Label lblAmount = new Label
+            {
+                Text = "Amount to Send:",
+                Location = new Point(20, 120),
+                Size = new Size(120, 30)
+            };
+
+            // TextBox for amount
+            TextBox txtAmount = new TextBox
+            {
+                Location = new Point(150, 120),
+                Size = new Size(200, 30)
+            };
+
+            Label lblAccount = new Label
+            {
+                Text = "Recipient's Account:",
+                Location = new Point(20, 170),
+                Size = new Size(120, 30)
+            };
+
+            TextBox txtAccount = new TextBox
+            {
+                Location = new Point(150, 170),
+                Size = new Size(200, 30)
+            };
+
+            // Send Button
+            Button btnSend = new Button
+            {
+                Text = "Send",
+                Location = new Point(150, 220),
+                Size = new Size(100, 40),
+                BackColor = Color.LightSkyBlue,
+                //FlatStyle = FlatStyle.Flat
+            };
+
+            // Add click event for the Send button
+            btnSend.Click += (s, args) =>
+            {
+                // Validate inputs
+                if (string.IsNullOrWhiteSpace(txtAmount.Text) || string.IsNullOrWhiteSpace(txtAccount.Text))
+                {
+                    MessageBox.Show("Please fill in all fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!decimal.TryParse(txtAmount.Text, out decimal amount) || amount <= 0)
+                {
+                    MessageBox.Show("Please enter a valid amount.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Handle sending logic here
+                string bankName = cmbBanks.SelectedItem.ToString();
+                MessageBox.Show($"Money sent successfully!\n\nBank: {bankName}\nAmount: {amount}\nAccount: {txtAccount.Text}",
+                    "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            };
+
+            // Add controls to the panel
+            panelContent.Controls.Add(lblBankName);
+            panelContent.Controls.Add(cmbBanks);
+            panelContent.Controls.Add(lblAmount);
+            panelContent.Controls.Add(txtAmount);
+            panelContent.Controls.Add(lblAccount);
+            panelContent.Controls.Add(txtAccount);
+            panelContent.Controls.Add(btnSend);
         }
 
         private void BtnViewProfile_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("View My Profile clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "My Profile",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(400, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Simulated user data (replace these with actual user data from your source)
+            string userName = "John Doe";
+            string userEmail = "john.doe@example.com";
+            string userPhone = "+1234567890";
+            string userAddress = "123 Main Street, City, Country";
+
+            string[] notifications =
+            {
+                "Your transaction of $500 was successful.",
+                "Your account balance is low.",
+                "New offer available on your linked card."
+            };
+
+            // Display user information with TextBoxes
+            int textBoxY = 70;
+            string[] labels = { "Name:", "Email:", "Phone:", "Address:" };
+            string[] values = { userName, userEmail, userPhone, userAddress };
+            TextBox[] textBoxes = new TextBox[labels.Length];
+
+            for (int i = 0; i < labels.Length; i++)
+            {
+                Label lblField = new Label
+                {
+                    Text = labels[i],
+                    Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                    ForeColor = Color.Black,
+                    Location = new Point(20, textBoxY),
+                    Size = new Size(120, 30)
+                };
+                panelContent.Controls.Add(lblField);
+
+                TextBox txtField = new TextBox
+                {
+                    Text = values[i],
+                    Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                    ForeColor = Color.Black,
+                    Location = new Point(150, textBoxY),
+                    Size = new Size(300, 30)
+                };
+                textBoxes[i] = txtField; // Store text boxes for future updates
+                panelContent.Controls.Add(txtField);
+
+                textBoxY += 40;
+            }
+
+            // Add an Update button
+            Button btnUpdate = new Button
+            {
+                Text = "Update",
+                Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                BackColor = Color.LightBlue,
+                ForeColor = Color.Black,
+                Location = new Point(150, textBoxY + 20),
+                Size = new Size(100, 40),
+                //FlatStyle = FlatStyle.Flat
+            };
+            btnUpdate.FlatAppearance.BorderSize = 0;
+            btnUpdate.Click += (s, ev) =>
+            {
+                // Update logic
+                string updatedName = textBoxes[0].Text;
+                string updatedEmail = textBoxes[1].Text;
+                string updatedPhone = textBoxes[2].Text;
+                string updatedAddress = textBoxes[3].Text;
+
+                MessageBox.Show($"Updated Info:\nName: {updatedName}\nEmail: {updatedEmail}\nPhone: {updatedPhone}\nAddress: {updatedAddress}",
+                    "Update Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            };
+            panelContent.Controls.Add(btnUpdate);
+
+            // Add a separator line
+            Label lblSeparator = new Label
+            {
+                BorderStyle = BorderStyle.Fixed3D,
+                Location = new Point(20, textBoxY + 80),
+                Size = new Size(400, 2)
+            };
+            panelContent.Controls.Add(lblSeparator);
+
+            // Add a Notifications Section
+            Label lblNotifications = new Label
+            {
+                Text = "Notifications:",
+                Font = new Font("Segoe UI", 14F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, textBoxY + 100),
+                Size = new Size(200, 30)
+            };
+            panelContent.Controls.Add(lblNotifications);
+
+            // Display notifications
+            int notificationY = textBoxY + 140;
+            foreach (string notification in notifications)
+            {
+                Label lblNotification = new Label
+                {
+                    Text = "- " + notification,
+                    Font = new Font("Segoe UI", 10F, FontStyle.Italic),
+                    ForeColor = Color.Gray,
+                    Location = new Point(20, notificationY),
+                    Size = new Size(400, 25)
+                };
+                panelContent.Controls.Add(lblNotification);
+
+                notificationY += 30;
+            }
         }
 
         private void BtnMyTransactions_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("My Transactions clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "My Transactions",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(400, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Simulated transactions data (replace with real data from the database)
+            var transactions = new[]
+            {
+        new { Date = "2024-12-01", SenderEmail = "john.doe@example.com", Amount = "$500", ReceiverEmail = "jane.smith@example.com" },
+        new { Date = "2024-12-05", SenderEmail = "john.doe@example.com", Amount = "$200", ReceiverEmail = "bob.brown@example.com" },
+        new { Date = "2024-12-10", SenderEmail = "john.doe@example.com", Amount = "$300", ReceiverEmail = "alice.white@example.com" }
+    };
+
+            // Add column headers
+            int startX = 20, startY = 70;
+            string[] headers = { "Date", "Sender Email", "Amount", "Receiver Email" };
+            int[] columnWidths = { 100, 200, 100, 200 };
+
+            for (int i = 0; i < headers.Length; i++)
+            {
+                Label lblHeader = new Label
+                {
+                    Text = headers[i],
+                    Font = new Font("Segoe UI", 12F, FontStyle.Bold),
+                    ForeColor = Color.Black,
+                    Location = new Point(startX, startY),
+                    Size = new Size(columnWidths[i], 30),
+                    TextAlign = ContentAlignment.MiddleLeft
+                };
+                panelContent.Controls.Add(lblHeader);
+
+                startX += columnWidths[i] + 10; // Adjust position for the next header
+            }
+
+            // Reset startX and increase startY for data rows
+            startX = 20;
+            startY += 40;
+
+            // Display transaction rows
+            foreach (var transaction in transactions)
+            {
+                string[] rowValues = { transaction.Date, transaction.SenderEmail, transaction.Amount, transaction.ReceiverEmail };
+
+                for (int i = 0; i < rowValues.Length; i++)
+                {
+                    Label lblData = new Label
+                    {
+                        Text = rowValues[i],
+                        Font = new Font("Segoe UI", 10F, FontStyle.Regular),
+                        ForeColor = Color.Black,
+                        Location = new Point(startX, startY),
+                        Size = new Size(columnWidths[i], 30),
+                        TextAlign = ContentAlignment.MiddleLeft
+                    };
+                    panelContent.Controls.Add(lblData);
+
+                    startX += columnWidths[i] + 10; // Adjust position for the next column
+                }
+
+                // Reset startX and move to the next row
+                startX = 20;
+                startY += 40;
+            }
         }
         private void BtnLogout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Logout clicked!");
+            Login dash = new Login();
+
+            // Show the LoginForm
+            dash.Show();
+
+            // Close or hide the current RegisterForm
+            this.Hide();
         }
 
         private void BtnLogout_MouseEnter(object sender, EventArgs e)

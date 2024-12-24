@@ -65,12 +65,11 @@ namespace GUI_mini_insta
             }
         }
 
-        public void updateaccount(string accountnum, string newbankname, string newpassword)
+        public void updateaccount(string accountnum, string newbankname)
         {
             var account = myaccounts.Find(a => a.getaccountnumber() == accountnum);
             if (account != null)
             {
-                account.setpassword(newpassword);
                 account.setBankname(newbankname);
             }
             else
