@@ -23,6 +23,7 @@ namespace GUI_mini_insta
 
         public List<BankAccounts> myaccounts = new List<BankAccounts>();
         public List<Transactions> mytransactions = new List<Transactions>();
+        public List<string> mynotifictions = new List<string>();
 
         public User(string _id, string _name, string _email, string _phone, string _address, string _password)
         {
@@ -102,6 +103,8 @@ namespace GUI_mini_insta
         {
             return limit;
         }
+
+        
 
 
 

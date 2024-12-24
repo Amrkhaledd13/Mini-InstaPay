@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Mini_InstaPay
-build_property.ProjectDir = G:\DP\Mini_InstaPay\Mini_InstaPay\
+build_property.ProjectDir = F:\pr\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

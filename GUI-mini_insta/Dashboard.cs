@@ -154,7 +154,8 @@ namespace GUI_mini_insta
                 cmbCards.Items.Add("amr");
             for (int i = 0;i < loggedInUser.myaccounts.Count; i++)
             {
-                cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber);
+                string s = loggedInUser.myaccounts[i].getaccountnumber();
+                cmbCards.Items.Add(s);
             }
             
             cmbCards.SelectedIndex = 0; // Select the first item by default
@@ -181,6 +182,7 @@ namespace GUI_mini_insta
 
                 // Handle card removal logic here
                 string selectedCard = cmbCards.SelectedItem.ToString();
+                loggedInUser.Removeaccount(selectedCard);
                 MessageBox.Show($"Card {selectedCard} removed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Optionally, remove the card from the ComboBox

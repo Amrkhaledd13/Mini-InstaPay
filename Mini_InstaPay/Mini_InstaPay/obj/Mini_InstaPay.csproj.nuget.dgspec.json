@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {}
+    "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {
+    "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+        "projectUniqueName": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
         "projectName": "Mini_InstaPay",
-        "projectPath": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
-        "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\obj\\",
+        "projectPath": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "F:\\pr\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,14 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Reactive.Windows.Forms": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,12 +61,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

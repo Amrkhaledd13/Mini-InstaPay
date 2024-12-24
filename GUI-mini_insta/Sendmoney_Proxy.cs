@@ -9,15 +9,16 @@ namespace GUI_mini_insta
 {
     internal class Sendmoney_Proxy
     {
-        public static void sendwithphoneproxy(User sender,int amount,string bankname)
+        public static void sendwithphoneproxy(User sender, string phone ,int amount,string bankname)
         {
             
             BankAccounts acc = sender.myaccounts.Find(a => a.getbankname() == bankname);
          
             if (acc != null) {
-                if (acc.getamount() >= amount || sender.getlimit() >= amount)
+                if (acc.getamount() >= amount && sender.getlimit() >= amount)
                 {
                     transferMoney ts = transferMoney.getts();
+                    ts.sendwithphonenumber(sender, phone , amount, bankname);
                     return; 
                 }
                 else
