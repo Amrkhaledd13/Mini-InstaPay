@@ -16,3 +16,12 @@ G:\DP\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\refint\Mini_InstaPay.
 G:\DP\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.pdb
 G:\DP\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.genruntimeconfig.cache
 G:\DP\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\ref\Mini_InstaPay.dll
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.csproj.AssemblyReference.cache
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.AssemblyInfoInputs.cache
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.AssemblyInfo.cs
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.csproj.CoreCompileInputs.cache
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.sourcelink.json
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.dll
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\refint\Mini_InstaPay.dll
+C:\Users\ali\Documents\GitHub\Mini-InstaPay\Mini_InstaPay\Mini_InstaPay\obj\Debug\net6.0-windows\Mini_InstaPay.pdb
