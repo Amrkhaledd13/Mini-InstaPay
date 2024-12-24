@@ -2,7 +2,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Mini_InstaPay
+namespace GUI_mini_insta
 {
     public class EncryptionManager
     {

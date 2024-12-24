@@ -1,4 +1,4 @@
-namespace Mini_InstaPay
+namespace GUI_mini_insta
 {
     public class TwoFactorAuthManager
     {

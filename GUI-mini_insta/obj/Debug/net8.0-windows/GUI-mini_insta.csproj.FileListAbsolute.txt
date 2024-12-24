@@ -3,7 +3,11 @@ F:\pr\Mini-InstaPay\GUI-mini_insta\bin\Debug\net8.0-windows\GUI-mini_insta.deps.
 F:\pr\Mini-InstaPay\GUI-mini_insta\bin\Debug\net8.0-windows\GUI-mini_insta.runtimeconfig.json
 F:\pr\Mini-InstaPay\GUI-mini_insta\bin\Debug\net8.0-windows\GUI-mini_insta.dll
 F:\pr\Mini-InstaPay\GUI-mini_insta\bin\Debug\net8.0-windows\GUI-mini_insta.pdb
+F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI_mini_insta.Dashboard.resources
 F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI_mini_insta.Form1.resources
+F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI_mini_insta.Form2.resources
+F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI_mini_insta.Login.resources
+F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI_mini_insta.Register.resources
 F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI-mini_insta.csproj.GenerateResource.cache
 F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI-mini_insta.GeneratedMSBuildEditorConfig.editorconfig
 F:\pr\Mini-InstaPay\GUI-mini_insta\obj\Debug\net8.0-windows\GUI-mini_insta.AssemblyInfoInputs.cache

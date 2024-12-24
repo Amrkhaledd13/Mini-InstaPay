@@ -1,27 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ydkYDEDiQVKloNOMKMR7i9TM3l4ZMS6U6ZFWa0XzoP7gJLOd48fXHlyDrE1YJzXNuLe/FngazDozlGoqWpxMpQ==",
+  "dgSpecHash": "rd+3qwvoWyfIuUbpVrJWAdtvqAb8LL8O1XwUhiQih47kLe6Xnrem+y1DJRt6ICIYCkyi7/O+Z5m00/rQP+3NwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ali\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\system.reactive.windows.forms\\6.0.1\\system.reactive.windows.forms.6.0.1.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\ali\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Reactive.Windows.Forms 6.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Reactive.Windows.Forms",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "projectFilePath": "c:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\Mini_InstaPay\\Mini_InstaPay\\Mini_InstaPay.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
 }
