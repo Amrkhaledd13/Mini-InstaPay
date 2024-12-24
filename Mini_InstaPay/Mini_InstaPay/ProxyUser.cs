@@ -10,7 +10,8 @@ namespace Mini_InstaPay
 {
     internal class ProxyUser:RealUser
     {
-        private static readonly Dictionary<string, User> RegisteredUsers = new Dictionary<string, User>();
+        public Users Usersprogram = Users.getUsers();
+
         private static readonly Regex ValidEmailRegex = CreateValidEmailRegex();
 
         private static Regex CreateValidEmailRegex()
@@ -55,53 +56,49 @@ namespace Mini_InstaPay
         }
         byte[] saltBytes = GenerateSalt();
 
-        public void Register(string name, string email, string password, string address, string phone)
+        public string Register(string name, string email, string password, string address, string phone)
         {
             if (!ValidEmailRegex.IsMatch(email))
             {
-                throw new Exception("Invalid email format.");
+                return "Invalid email format.";
             }
-            if (RegisteredUsers.ContainsKey(email))
+            if (Usersprogram.UsersWithEmail.ContainsKey(email))
             {
-                throw new Exception("This email already exists.");
+                return "This email already exists.";
             }
             if (password.Length < 8)
             {
-                throw new Exception("Password must be at least 8 characters long.");
+                return "Password must be at least 8 characters long.";
             }
 
             byte[] salt = GenerateSalt();
             string hashedPassword = HashPassword(password, saltBytes);
             string userId = Guid.NewGuid().ToString(); // Generate a unique ID
 
-            User newUser = new User
-            (
-                 userId,
-                 name,
-                email,
-                phone,
-                address,
-                hashedPassword
-               
-            );
+            User newUser = new User(userId,name,email,phone,address,hashedPassword);
+
             // Console.WriteLine(hashedPassword);
-            RegisteredUsers[email] = newUser; // Add to in-memory storage
-            Console.WriteLine($"User registered successfully. User ID: {userId}");
+            Usersprogram.UsersWithEmail[email] = newUser; // Add to in-memory storage
+            Usersprogram.UsersWithPhone[phone] = newUser; // Add to in-memory storage
+            return $"User registered successfully. User ID: {userId}";
         }
 
-        public void Login(string email, string password)
+        public User Login(string email, string password)
         {
-            if (!RegisteredUsers.ContainsKey(email))
+            if (!Usersprogram.UsersWithEmail.ContainsKey(email))
             {
                 Console.WriteLine("User not found.");
-                return;
+                return null;
             }
 
-            User user = RegisteredUsers[email];
+            User user = Usersprogram.UsersWithEmail[email];
             string computedHash = HashPassword(password, saltBytes);
             if (user.Suspended)
             {
-                Console.WriteLine("This account is suspended");
+                TwoFactorAuthManager authManager = new TwoFactorAuthManager();
+                authManager.Authenticate();
+                Console.WriteLine($"Login successful! Welcome, {user.Name}.");
+                return user;
             }
             else
             {
@@ -115,16 +112,17 @@ namespace Mini_InstaPay
                     Console.WriteLine("Invalid email or password.");
                 }
             }
+            return null;
         }
         public void UpdateProfile(string email, string? newName = null, string? newAddress = null, string? newPhone = null)
         {
-            if (!RegisteredUsers.ContainsKey(email))
+            if (!Usersprogram.UsersWithEmail.ContainsKey(email))
             {
                 Console.WriteLine("User not found.");
                 return;
             }
 
-            User user = RegisteredUsers[email];
+            User user = Usersprogram.UsersWithEmail[email];
 
             // Update fields only if new values are provided
             if (!string.IsNullOrEmpty(newName))

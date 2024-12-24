@@ -1,4 +1,4 @@
-﻿// Example Usage
+﻿
 using Mini_InstaPay;
 
 public class Program
@@ -27,7 +27,8 @@ public class Program
                     Console.Write("Enter phone: ");
                     string phone = Console.ReadLine();
                     // Register User
-                    userProxy.Register(username, email, password, address, phone);
+                    // userProxy.Register(username, email, password, address, phone);
+                    Console.Write(userProxy.Register(username, email, password, address, phone));
 
                 }
                 else if (type.Equals("L"))
