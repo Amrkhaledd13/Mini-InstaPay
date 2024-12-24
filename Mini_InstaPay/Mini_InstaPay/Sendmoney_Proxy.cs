@@ -11,7 +11,7 @@ namespace Mini_InstaPay
     {
         public static void sendwithphoneproxy(User sender,int amount,string bankname)
         {
-            
+            Console.WriteLine("sdadas");
             BankAccounts acc = sender.myaccounts.Find(a => a.getbankname() == bankname);
          
             if (acc != null) {

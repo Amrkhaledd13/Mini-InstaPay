@@ -38,13 +38,20 @@ namespace Mini_InstaPay
         public void Addaccount(BankAccounts account)
         {
             if (account == null || account.getaccountnumber == null) throw new ArgumentNullException();
+
+            EncryptionManager encryptionManager = new EncryptionManager();
+            string encryptedAccountNumber = encryptionManager.Encrypt(account.getaccountnumber());
+
             if (myaccounts.Exists(a => a.getaccountnumber() == account.getaccountnumber()))
             {
                 Console.WriteLine("the account already linked");
                 return;
             }
+
+
+            account.setaccountnumber(encryptedAccountNumber);
             myaccounts.Add(account);
-            System_BankAccounts.bnkacounts[account.getaccountnumber()] = account;
+            System_BankAccounts.bnkacounts[encryptedAccountNumber] = account;
             System_BankAccounts.Numberofaccounts++;
         }
 
@@ -68,11 +75,12 @@ namespace Mini_InstaPay
 
         public void updateaccount(string accountnum, string newbankname, string newpassword)
         {
+             EncryptionManager encryptionManager = new EncryptionManager();
             var account = myaccounts.Find(a => a.getaccountnumber() == accountnum);
             if (account != null)
             {
-                account.setpassword(newpassword);
-                account.setBankname(newbankname);
+                account.setpassword(encryptionManager.Encrypt(newpassword));
+                account.setBankname(encryptionManager.Encrypt(newbankname));
             }
             else
             {

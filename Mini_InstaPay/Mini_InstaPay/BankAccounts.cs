@@ -20,6 +20,10 @@ namespace Mini_InstaPay
         {
             return account_number;
         }
+        public void setaccountnumber(string accountNumber)
+        {
+        this.account_number = accountNumber; // Assuming `accountNumber` is a private field
+        }
         public void recieveamout(int x)
         {
             Amount += x;
