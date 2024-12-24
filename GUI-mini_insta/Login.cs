@@ -21,6 +21,7 @@ namespace GUI_mini_insta
         {
             InitializeComponent();
             _proxyUser = new ProxyUser();
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -37,9 +38,10 @@ namespace GUI_mini_insta
                 btnVerifyOtp.Visible = true;
                 lblMessage.Text = "Enter OTP sent to your email.";
                 lblMessage.Visible = true;
-
+                authManager = new TwoFactorAuthManager();
                 // Optionally, you can display or send the OTP here, e.g., via email
                 string otp = authManager.GetOtp();
+                lblMessage.Text = otp;
                 Console.WriteLine($"OTP: {otp}"); // Just for debugging, remove in production
             }
             else
@@ -66,6 +68,11 @@ namespace GUI_mini_insta
                 lblMessage.Text = "Invalid OTP.";
                 lblMessage.Visible = true;
             }
+        }
+
+        private void lblMessage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

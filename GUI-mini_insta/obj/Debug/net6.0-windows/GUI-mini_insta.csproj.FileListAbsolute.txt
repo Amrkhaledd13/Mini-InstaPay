@@ -4,6 +4,7 @@ G:\DP\GUI-mini_insta\bin\Debug\net6.0-windows\GUI-mini_insta.runtimeconfig.json
 G:\DP\GUI-mini_insta\bin\Debug\net6.0-windows\GUI-mini_insta.dll
 G:\DP\GUI-mini_insta\bin\Debug\net6.0-windows\GUI-mini_insta.pdb
 G:\DP\GUI-mini_insta\obj\Debug\net6.0-windows\GUI-mini_insta.csproj.AssemblyReference.cache
+G:\DP\GUI-mini_insta\obj\Debug\net6.0-windows\GUI_mini_insta.Dashboard.resources
 G:\DP\GUI-mini_insta\obj\Debug\net6.0-windows\GUI_mini_insta.Form1.resources
 G:\DP\GUI-mini_insta\obj\Debug\net6.0-windows\GUI_mini_insta.Form2.resources
 G:\DP\GUI-mini_insta\obj\Debug\net6.0-windows\GUI_mini_insta.Login.resources

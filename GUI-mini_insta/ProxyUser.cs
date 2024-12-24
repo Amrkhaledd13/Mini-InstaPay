@@ -1,27 +1,39 @@
-﻿using System;
+﻿using GUI_mini_insta;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Mini_InstaPay
 {
-    internal class ProxyUser:RealUser
+    internal class ProxyUser : RealUser
     {
         public Users Usersprogram = Users.getUsers();
 
-        private static readonly Regex ValidEmailRegex = CreateValidEmailRegex();
+        private static readonly Regex ValidEmailRegex;
 
+        static ProxyUser()
+        {
+            try
+            {
+                ValidEmailRegex = CreateValidEmailRegex();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error initializing ValidEmailRegex: {ex.Message}");
+                throw;
+            }
+        }
         private static Regex CreateValidEmailRegex()
         {
-            string validEmailPattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
-                + @"([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\.)"
-                + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
-
+            string validEmailPattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|([-a-z0-9!#$%&'*+/=?^_`{|}~]|(?<!\.)\.)*)(?<!\\.)@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
             return new Regex(validEmailPattern, RegexOptions.IgnoreCase);
         }
+
 
         static string HashPassword(string password, byte[] salt)
         {
@@ -37,14 +49,10 @@ namespace Mini_InstaPay
                 // Hash the concatenated password and salt
                 byte[] hashedBytes = sha256.ComputeHash(saltedPassword);
 
-                // Concatenate the salt and hashed password for storage
-                byte[] hashedPasswordWithSalt = new byte[hashedBytes.Length + salt.Length];
-                Buffer.BlockCopy(salt, 0, hashedPasswordWithSalt, 0, salt.Length);
-                Buffer.BlockCopy(hashedBytes, 0, hashedPasswordWithSalt, salt.Length, hashedBytes.Length);
-
-                return Convert.ToBase64String(hashedPasswordWithSalt);
+                return Convert.ToBase64String(hashedBytes); // Return only the hash
             }
         }
+
         static byte[] GenerateSalt()
         {
             using (var rng = new RNGCryptoServiceProvider())
@@ -54,8 +62,6 @@ namespace Mini_InstaPay
                 return salt;
             }
         }
-
-        byte[] saltBytes = GenerateSalt();
 
         public string Register(string name, string email, string password, string address, string phone)
         {
@@ -72,16 +78,15 @@ namespace Mini_InstaPay
                 throw new Exception("Password must be at least 8 characters long.");
             }
 
-            string hashedPassword = HashPassword(password, saltBytes);
+            byte[] salt = GenerateSalt(); // Generate a unique salt for this user
+            string hashedPassword = HashPassword(password, salt);
+            string hashedPasswordWithSalt = Convert.ToBase64String(salt) + ":" + hashedPassword; // Store salt and hash together
+
             string userId = Guid.NewGuid().ToString(); // Generate a unique ID
+            User newUser = new User(userId, name, email, phone, address, hashedPasswordWithSalt);
 
-            User newUser = new User(userId,name,email,phone,address,hashedPassword);
-
-            // Console.WriteLine(hashedPassword);
             Usersprogram.UsersWithEmail[email] = newUser;
             Usersprogram.UsersWithPhone[phone] = newUser;
-            //Usersprogram.UsersWithEmail.Add(newUser.Email, newUser); // Add to in-memory storage
-            //Usersprogram.UsersWithPhone.Add(newUser.Phone, newUser); // Add to in-memory storage
 
             MessageBox.Show(email + "----------" + password + "-----------------", "email");
             MessageBox.Show(userId, "Success");
@@ -96,12 +101,16 @@ namespace Mini_InstaPay
                 return null;
             }
 
-            MessageBox.Show(email + "----------" + password + "-----------------", "email");
             User user = Usersprogram.UsersWithEmail[email];
-            string computedHash = HashPassword(password, saltBytes);
 
-            //MessageBox.Show(computedHash + "     " + user.PasswordHash, "User not found");
-            if (computedHash == user.PasswordHash)
+            // Split the stored password into salt and hash
+            string[] parts = user.PasswordHash.Split(':');
+            byte[] storedSalt = Convert.FromBase64String(parts[0]);
+            string storedHash = parts[1];
+
+            string computedHash = HashPassword(password, storedSalt);
+
+            if (computedHash == storedHash)
             {
                 TwoFactorAuthManager authManager = new TwoFactorAuthManager();
                 authManager.GetOtp();
@@ -111,9 +120,10 @@ namespace Mini_InstaPay
             else
             {
                 Console.WriteLine("Invalid email or password.");
+                return null;
             }
-            return null;
         }
+
         public void UpdateProfile(string email, string? newName = null, string? newAddress = null, string? newPhone = null)
         {
             if (!Usersprogram.UsersWithEmail.ContainsKey(email))
@@ -136,11 +146,13 @@ namespace Mini_InstaPay
                 user.Phone = newPhone;
                 Console.WriteLine($"Phone updated to: {user.Phone}");
             }
+
             if (!string.IsNullOrEmpty(newAddress))
             {
                 user.Address = newAddress;
-                Console.WriteLine($"Phone updated to: {user.Address}");
+                Console.WriteLine($"Address updated to: {user.Address}");
             }
+
             if (string.IsNullOrEmpty(newName) && string.IsNullOrEmpty(newPhone) && string.IsNullOrEmpty(newAddress))
             {
                 Console.WriteLine("No updates provided.");

@@ -8,7 +8,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mini_InstaPay
+namespace GUI_mini_insta
 {
     public class User
     {

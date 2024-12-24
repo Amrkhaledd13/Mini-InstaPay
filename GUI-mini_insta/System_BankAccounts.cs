@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mini_InstaPay
+namespace GUI_mini_insta
 {
     internal class System_BankAccounts
     {
