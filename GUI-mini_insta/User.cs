@@ -44,7 +44,7 @@ namespace GUI_mini_insta
                 return;
             }
             myaccounts.Add(account);
-            System_BankAccounts.bnkacounts[account.getaccountnumber()] = account;
+            System_BankAccounts.bnkacounts.Add(account.getaccountnumber(), account);
             System_BankAccounts.Numberofaccounts++;
         }
 
@@ -53,15 +53,13 @@ namespace GUI_mini_insta
         {
             if (myaccounts.Exists(a => a.getaccountnumber() == accountnum))
             {
-
+                var account = myaccounts.Find(a => a.getaccountnumber() == accountnum);
+                myaccounts.Remove(account);
+                System_BankAccounts.Numberofaccounts--;
+                System_BankAccounts.bnkacounts.Remove(account.getaccountnumber());
             }
             else
             {
-                var account = myaccounts.Find(a => a.getaccountnumber() == accountnum);
-                myaccounts.Remove(account);
-                System_BankAccounts.Numberofaccounts++;
-                System_BankAccounts.bnkacounts.Remove(account.getaccountnumber());
-
                 Console.WriteLine("does not Exist");
             }
         }

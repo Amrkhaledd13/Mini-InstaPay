@@ -16,7 +16,7 @@ namespace GUI_mini_insta
     {
         private readonly ProxyUser _proxyUser;
         private TwoFactorAuthManager authManager;
-
+        User loggedInUser;
         public Login()
         {
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace GUI_mini_insta
             string email = txtEmail.Text;
             string password = txtPassword.Text;
 
-            User loggedInUser = _proxyUser.Login(email, password);  // Call your Login function
+             loggedInUser = _proxyUser.Login(email, password);  // Call your Login function
 
             if (loggedInUser != null)
             {
@@ -62,6 +62,13 @@ namespace GUI_mini_insta
                 lblMessage.Text = "OTP verified successfully! You are logged in.";
                 lblMessage.Visible = true;
                 // Proceed with the logged-in user, e.g., show the dashboard
+                Dashboard dash = new Dashboard(loggedInUser);
+
+            // Show the LoginForm
+                dash.Show();
+
+             // Close or hide the current RegisterForm
+                 this.Hide();
             }
             else
             {

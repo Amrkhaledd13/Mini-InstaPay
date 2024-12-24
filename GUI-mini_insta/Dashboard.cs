@@ -12,9 +12,11 @@ namespace GUI_mini_insta
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        User loggedInUser;
+        public Dashboard(User l)
         {
             InitializeComponent();
+            loggedInUser = l;
         }
         private void BtnAddAccount_Click(object sender, EventArgs e)
         {
@@ -99,7 +101,8 @@ namespace GUI_mini_insta
                     MessageBox.Show("Invalid money amount.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-
+                BankAccounts acc = new BankAccounts(txtCardNumber.Text, int.Parse(txtInitialMoney.Text), txtBankName.Text);
+                loggedInUser.Addaccount(acc);
                 MessageBox.Show($"Account Added:\nBank: {txtBankName.Text}\nCard Number: {txtCardNumber.Text}\nInitial Money: {initialMoney:C}",
                                 "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             };
@@ -148,9 +151,12 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (you should replace this with actual data)
-            cmbCards.Items.Add("1234-5678-9012-3456");
-            cmbCards.Items.Add("9876-5432-1098-7654");
-            cmbCards.Items.Add("4567-8901-2345-6789");
+                cmbCards.Items.Add("amr");
+            for (int i = 0;i < loggedInUser.myaccounts.Count; i++)
+            {
+                cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber);
+            }
+            
             cmbCards.SelectedIndex = 0; // Select the first item by default
 
             // Remove Button
