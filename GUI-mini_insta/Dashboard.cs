@@ -151,12 +151,12 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (you should replace this with actual data)
-                cmbCards.Items.Add("amr");
-            for (int i = 0;i < loggedInUser.myaccounts.Count; i++)
+            cmbCards.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
                 cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber());
             }
-            
+
             cmbCards.SelectedIndex = 0; // Select the first item by default
 
             // Remove Button
@@ -646,7 +646,78 @@ namespace GUI_mini_insta
 
         private void BtnMyTransactions_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("My Transactions clicked!");
+            // Clear existing controls from the panel
+            panelContent.Controls.Clear();
+
+            // Add a title to the panel
+            Label lblTitle = new Label
+            {
+                Text = "My Transactions",
+                Font = new Font("Segoe UI", 16F, FontStyle.Bold),
+                ForeColor = Color.Black,
+                Location = new Point(20, 20),
+                Size = new Size(400, 30)
+            };
+            panelContent.Controls.Add(lblTitle);
+
+            // Simulated transactions data (replace with real data from the database)
+            var transactions = new[]
+            {
+        new { Date = "2024-12-01", SenderEmail = "john.doe@example.com", Amount = "$500", ReceiverEmail = "jane.smith@example.com" },
+        new { Date = "2024-12-05", SenderEmail = "john.doe@example.com", Amount = "$200", ReceiverEmail = "bob.brown@example.com" },
+        new { Date = "2024-12-10", SenderEmail = "john.doe@example.com", Amount = "$300", ReceiverEmail = "alice.white@example.com" }
+    };
+
+            // Add column headers
+            int startX = 20, startY = 70;
+            string[] headers = { "Date", "Sender Email", "Amount", "Receiver Email" };
+            int[] columnWidths = { 100, 200, 100, 200 };
+
+            for (int i = 0; i < headers.Length; i++)
+            {
+                Label lblHeader = new Label
+                {
+                    Text = headers[i],
+                    Font = new Font("Segoe UI", 12F, FontStyle.Bold),
+                    ForeColor = Color.Black,
+                    Location = new Point(startX, startY),
+                    Size = new Size(columnWidths[i], 30),
+                    TextAlign = ContentAlignment.MiddleLeft
+                };
+                panelContent.Controls.Add(lblHeader);
+
+                startX += columnWidths[i] + 10; // Adjust position for the next header
+            }
+
+            // Reset startX and increase startY for data rows
+            startX = 20;
+            startY += 40;
+
+            // Display transaction rows
+            foreach (var transaction in transactions)
+            {
+                string[] rowValues = { transaction.Date, transaction.SenderEmail, transaction.Amount, transaction.ReceiverEmail };
+
+                for (int i = 0; i < rowValues.Length; i++)
+                {
+                    Label lblData = new Label
+                    {
+                        Text = rowValues[i],
+                        Font = new Font("Segoe UI", 10F, FontStyle.Regular),
+                        ForeColor = Color.Black,
+                        Location = new Point(startX, startY),
+                        Size = new Size(columnWidths[i], 30),
+                        TextAlign = ContentAlignment.MiddleLeft
+                    };
+                    panelContent.Controls.Add(lblData);
+
+                    startX += columnWidths[i] + 10; // Adjust position for the next column
+                }
+
+                // Reset startX and move to the next row
+                startX = 20;
+                startY += 40;
+            }
         }
         private void BtnLogout_Click(object sender, EventArgs e)
         {

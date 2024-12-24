@@ -47,7 +47,7 @@
             panelSidebar.Dock = DockStyle.Left;
             panelSidebar.Location = new Point(0, 0);
             panelSidebar.Name = "panelSidebar";
-            panelSidebar.Size = new Size(204, 450);
+            panelSidebar.Size = new Size(204, 483);
             panelSidebar.TabIndex = 0;
             // 
             // lblTitle
@@ -157,16 +157,16 @@
             // panelContent
             // 
             panelContent.BackColor = Color.FromArgb(224, 224, 224);
-            panelContent.Location = new Point(200, 0);
+            panelContent.Location = new Point(201, 0);
             panelContent.Name = "panelContent";
-            panelContent.Size = new Size(394, 450);
+            panelContent.Size = new Size(830, 483);
             panelContent.TabIndex = 2;
             // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(594, 450);
+            ClientSize = new Size(681, 483);
             Controls.Add(panelContent);
             Controls.Add(panelSidebar);
             Controls.Add(lblFooter);
