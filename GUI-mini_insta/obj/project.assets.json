@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\ali khaled\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+      "projectUniqueName": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
       "projectName": "GUI-mini_insta",
-      "projectPath": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\obj\\",
+      "projectPath": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+      "packagesPath": "C:\\Users\\ali khaled\\.nuget\\packages\\",
+      "outputPath": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ali khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,16 +69,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
