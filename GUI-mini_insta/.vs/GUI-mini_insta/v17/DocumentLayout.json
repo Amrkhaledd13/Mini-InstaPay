@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|c:\\users\\ali\\documents\\github\\mini-instapay\\gui-mini_insta\\reportsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:reportsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|c:\\users\\ali\\documents\\github\\mini-instapay\\gui-mini_insta\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -47,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|c:\\users\\ali\\documents\\github\\mini-instapay\\gui-mini_insta\\sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,7 +134,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ReportsModule.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\ReportsModule.cs",
+              "RelativeDocumentMoniker": "ReportsModule.cs",
+              "ToolTip": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\ReportsModule.cs",
+              "RelativeToolTip": "ReportsModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T06:27:34.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
@@ -138,12 +155,11 @@
               "RelativeToolTip": "Dashboard.cs",
               "ViewState": "AQIAAAECAAAAAAAAAAAowA8CAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:46:14.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T02:46:14.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProxyUser.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\ProxyUser.cs",
               "RelativeDocumentMoniker": "ProxyUser.cs",
@@ -151,24 +167,22 @@
               "RelativeToolTip": "ProxyUser.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAwwFoAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:20:48.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T02:20:48.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
               "ToolTip": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs [Design]",
               "RelativeToolTip": "Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:46:04.643Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-25T02:46:04.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "transferMoney.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\transferMoney.cs",
               "RelativeDocumentMoniker": "transferMoney.cs",
@@ -176,12 +190,11 @@
               "RelativeToolTip": "transferMoney.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAIwDgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:22:13.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T02:22:13.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
@@ -189,12 +202,11 @@
               "RelativeToolTip": "User.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAkwCgAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:20:30.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T02:20:30.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserProfile.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserProfile.cs",
@@ -206,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\UserProfile.cs",
               "RelativeDocumentMoniker": "UserProfile.cs",
@@ -214,12 +226,11 @@
               "RelativeToolTip": "UserProfile.cs",
               "ViewState": "AQIAAFkAAAAAAAAAAAAgwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T05:09:14.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T05:09:14.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BankAccounts.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\BankAccounts.cs",
               "RelativeDocumentMoniker": "BankAccounts.cs",
@@ -227,12 +238,11 @@
               "RelativeToolTip": "BankAccounts.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAcwAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:29:11.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T02:29:11.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OtpGenerator.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\OtpGenerator.cs",
               "RelativeDocumentMoniker": "OtpGenerator.cs",
@@ -240,12 +250,11 @@
               "RelativeToolTip": "OtpGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T04:13:30.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T04:13:30.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RealUser.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\RealUser.cs",
               "RelativeDocumentMoniker": "RealUser.cs",
@@ -253,12 +262,11 @@
               "RelativeToolTip": "RealUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T03:20:24.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T03:20:24.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -266,12 +274,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwA8AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T02:58:57.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T02:58:57.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Sendmoney_Proxy.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Sendmoney_Proxy.cs",
               "RelativeDocumentMoniker": "Sendmoney_Proxy.cs",
@@ -279,12 +286,11 @@
               "RelativeToolTip": "Sendmoney_Proxy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T05:24:21.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T05:24:21.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "newOffersNot.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\newOffersNot.cs",
               "RelativeDocumentMoniker": "newOffersNot.cs",
@@ -296,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "statusOfNotification.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\statusOfNotification.cs",
               "RelativeDocumentMoniker": "statusOfNotification.cs",
@@ -308,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "notificationFactory.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\notificationFactory.cs",
               "RelativeDocumentMoniker": "notificationFactory.cs",
@@ -320,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Manager.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Manager.cs",
               "RelativeDocumentMoniker": "Manager.cs",
@@ -332,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "lowbalanceNot.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\lowbalanceNot.cs",
               "RelativeDocumentMoniker": "lowbalanceNot.cs",
@@ -344,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Admin.cs",
               "RelativeDocumentMoniker": "Admin.cs",
@@ -356,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Admin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Admin.cs",
               "RelativeDocumentMoniker": "Admin.cs",
@@ -366,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Users.cs",
               "RelativeDocumentMoniker": "Users.cs",
@@ -378,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Notifications.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Notifications.cs",
               "RelativeDocumentMoniker": "Notifications.cs",
@@ -390,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Transaction.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Transaction.cs",
               "RelativeDocumentMoniker": "Transaction.cs",
@@ -400,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
@@ -410,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Transaction.cs",
               "RelativeDocumentMoniker": "Transaction.cs",
@@ -422,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
@@ -434,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Transactions.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\Transactions.cs",
               "RelativeDocumentMoniker": "Transactions.cs",
