@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,17 @@ namespace GUI_mini_insta
 {
     internal class Manager : Command
     {
+        static Manager man;
+        private Manager() { }
 
+        static public Manager getMan()
+        {
+            if (man== null)
+            {
+                man = new Manager();
+            }
+            return man;
+        }
         public void Execute(User s)
         {
             if (s.suspended == false)
@@ -24,5 +35,6 @@ namespace GUI_mini_insta
         }
 
         public Dictionary<string,List<string>> issues = new Dictionary<string, List<string>>();
+        public List<Transactions> transactions = new List<Transactions>();
     }
 }

@@ -10,7 +10,7 @@ namespace GUI_mini_insta
     {
         public lowbalanceNot(string s) : base(s) { }
 
-        public void sendnotification()
+        public override void sendnotification()
         {
             Users u = Users.getUsers();
             u.UsersWithPhone[phone].mynotifictions.Add("low amount of money, please charge your balance");

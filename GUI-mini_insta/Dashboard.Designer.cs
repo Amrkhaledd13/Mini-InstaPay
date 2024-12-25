@@ -18,6 +18,7 @@
         private void InitializeComponent()
         {
             panelSidebar = new Panel();
+            customer_Service = new Button();
             lblTitle = new Label();
             btnAddAccount = new Button();
             btnRemoveAccount = new Button();
@@ -29,7 +30,6 @@
             btnLogout = new Button();
             lblFooter = new Label();
             panelContent = new Panel();
-            customer_Service = new Button();
             panelSidebar.SuspendLayout();
             SuspendLayout();
             // 
@@ -52,10 +52,20 @@
             panelSidebar.Size = new Size(204, 483);
             panelSidebar.TabIndex = 0;
             // 
+            // customer_Service
+            // 
+            customer_Service.Location = new Point(20, 340);
+            customer_Service.Name = "customer_Service";
+            customer_Service.Size = new Size(160, 30);
+            customer_Service.TabIndex = 9;
+            customer_Service.Text = "Customer Service";
+            customer_Service.UseVisualStyleBackColor = true;
+            customer_Service.Click += customer_Service_Click;
+            // 
             // lblTitle
             // 
             lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTitle.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
             lblTitle.ForeColor = Color.White;
             lblTitle.Location = new Point(15, 15);
             lblTitle.Name = "lblTitle";
@@ -148,7 +158,7 @@
             // lblFooter
             // 
             lblFooter.AutoSize = true;
-            lblFooter.Font = new Font("Arial", 8F, FontStyle.Italic, GraphicsUnit.Point);
+            lblFooter.Font = new Font("Arial", 8F, FontStyle.Italic);
             lblFooter.ForeColor = Color.Gray;
             lblFooter.Location = new Point(220, 400);
             lblFooter.Name = "lblFooter";
@@ -163,16 +173,7 @@
             panelContent.Name = "panelContent";
             panelContent.Size = new Size(830, 483);
             panelContent.TabIndex = 2;
-            // 
-            // customer_Service
-            // 
-            customer_Service.Location = new Point(20, 340);
-            customer_Service.Name = "customer_Service";
-            customer_Service.Size = new Size(160, 30);
-            customer_Service.TabIndex = 9;
-            customer_Service.Text = "Customer Service";
-            customer_Service.UseVisualStyleBackColor = true;
-            customer_Service.Click += customer_Service_Click;
+            panelContent.Paint += panelContent_Paint;
             // 
             // Dashboard
             // 

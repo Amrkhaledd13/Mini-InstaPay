@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace GUI_mini_insta
 {
@@ -22,7 +23,7 @@ namespace GUI_mini_insta
         {
             InitializeComponent();
             _proxyUser = new ProxyUser();
-            
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -36,7 +37,7 @@ namespace GUI_mini_insta
             {
                 if (loggedInUser.suspended)
                 {
-                    MessageBox.Show( "You accont is suspended","Error");
+                    MessageBox.Show("You accont is suspended", "Error");
                     lblMessage.Text = "You accont is suspended";
                     return;
                 }
@@ -61,21 +62,39 @@ namespace GUI_mini_insta
         private void btnVerifyOtp_Click(object sender, EventArgs e)
         {
             string enteredOtp = txtOtp.Text;
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
 
             bool isOtpValid = authManager.VerifyOtp(enteredOtp);  // Use the VerifyOtp method
 
             if (isOtpValid)
             {
-                lblMessage.Text = "OTP verified successfully! You are logged in.";
-                lblMessage.Visible = true;
-                // Proceed with the logged-in user, e.g., show the dashboard
-                Dashboard dash = new Dashboard(loggedInUser);
+                if (email == "admin@gmail.com" && password == "admin12345")
+                {
+                    lblMessage.Text = "OTP verified successfully! You are logged in.";
+                    lblMessage.Visible = true;
 
-                // Show the LoginForm
-                dash.Show();
+                    Admin adm = new Admin();
 
-                // Close or hide the current RegisterForm
-                this.Hide();
+                    // Show the LoginForm
+                    adm.Show();
+
+                    // Close or hide the current RegisterForm
+                    this.Hide();
+                }
+                else
+                {
+                    lblMessage.Text = "OTP verified successfully! You are logged in.";
+                    lblMessage.Visible = true;
+                    // Proceed with the logged-in user, e.g., show the dashboard
+                    Dashboard dash = new Dashboard(loggedInUser);
+
+                    // Show the LoginForm
+                    dash.Show();
+
+                    // Close or hide the current RegisterForm
+                    this.Hide();
+                }
             }
             else
             {
@@ -83,7 +102,6 @@ namespace GUI_mini_insta
                 lblMessage.Visible = true;
             }
         }
-
         private void lblMessage_Click(object sender, EventArgs e)
         {
 
@@ -99,6 +117,11 @@ namespace GUI_mini_insta
 
             // Close or hide the current RegisterForm
             this.Hide();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

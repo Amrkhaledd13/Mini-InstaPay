@@ -19,7 +19,7 @@ namespace GUI_mini_insta
         {
             phone = s;
         }
-        public void sendnotification() { }
+        public virtual void sendnotification() { }
 
     }
 }

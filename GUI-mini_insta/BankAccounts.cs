@@ -11,14 +11,19 @@ namespace GUI_mini_insta
         private string account_number,  Bank_Name, username, userphone, useremail , password;
         private int Amount;
 
-        public  BankAccounts(string _accountnumber,int amount,string bankname) {
+        public  BankAccounts(string _accountnumber,int amount,string bankname,string userphone) {
             account_number = _accountnumber;
             Amount = amount;
             Bank_Name = bankname;
+            this.userphone = userphone;
         }  
         public string getaccountnumber()
         {
             return account_number;
+        }
+        public void setaccountnumber(string x)
+        {
+            account_number = x;
         }
         public void recieveamout(int x)
         {
@@ -47,6 +52,5 @@ namespace GUI_mini_insta
         {
             return Bank_Name;
         }
-
     }
 }

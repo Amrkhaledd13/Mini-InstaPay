@@ -29,11 +29,14 @@ namespace GUI_mini_insta
                 {
                     if (acc.getamount() < amount)
                     {
-                        Console.WriteLine("you don't have enough amount");
+                        MessageBox.Show("you don't have enough amount","Low amount of money");
+                        Notifications notification = notificationFactory.createnotifications("low balance", $" ", sender.Phone);
+                        notification.sendnotification();
                     }
                     else
                     {
-                        Console.WriteLine("you have reach the daily limit");
+                        MessageBox.Show("you have reach the daily limit","Limit reached");
+
                     }
                     
                 }

@@ -37,14 +37,18 @@ namespace GUI_mini_insta
             limit = 5000; // initial value of limit
         }
 
+
         public void Addaccount(BankAccounts account)
         {
             if (account == null || account.getaccountnumber == null) throw new ArgumentNullException();
+            EncryptionManager encryptionManager = new EncryptionManager();
+            //string encryptedAccountNumber = encryptionManager.Encrypt(account.getaccountnumber());
             if (myaccounts.Exists(a => a.getaccountnumber() == account.getaccountnumber()))
             {
                 Console.WriteLine("the account already linked");
                 return;
             }
+            account.setaccountnumber(account.getaccountnumber());
             myaccounts.Add(account);
             System_BankAccounts.bnkacounts.Add(account.getaccountnumber(), account);
             System_BankAccounts.Numberofaccounts++;

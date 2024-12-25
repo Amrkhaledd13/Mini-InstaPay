@@ -65,6 +65,7 @@ namespace Mini_InstaPay
 
         public string Register(string name, string email, string password, string address, string phone)
         {
+
             if (!ValidEmailRegex.IsMatch(email))
             {
                 throw new Exception("Invalid email format.");
@@ -87,7 +88,6 @@ namespace Mini_InstaPay
 
             Usersprogram.UsersWithEmail[email] = newUser;
             Usersprogram.UsersWithPhone[phone] = newUser;
-            MessageBox.Show(userId, "Success");
             return $"User registered successfully. User ID: {userId}";
         }
 

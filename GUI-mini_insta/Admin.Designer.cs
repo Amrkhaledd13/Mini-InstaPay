@@ -34,12 +34,10 @@
             comboBox1 = new ComboBox();
             suspend = new Button();
             view = new Button();
-            label3 = new Label();
-            comboBox2 = new ComboBox();
-            button3 = new Button();
             transaction = new Button();
             listBox1 = new ListBox();
             label4 = new Label();
+            btnLogout = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -82,9 +80,9 @@
             // 
             // suspend
             // 
-            suspend.Location = new Point(12, 140);
+            suspend.Location = new Point(85, 144);
             suspend.Name = "suspend";
-            suspend.Size = new Size(75, 23);
+            suspend.Size = new Size(89, 23);
             suspend.TabIndex = 3;
             suspend.Text = "Suspend";
             suspend.UseVisualStyleBackColor = true;
@@ -92,7 +90,7 @@
             // 
             // view
             // 
-            view.Location = new Point(12, 169);
+            view.Location = new Point(85, 187);
             view.Name = "view";
             view.Size = new Size(89, 23);
             view.TabIndex = 4;
@@ -100,39 +98,11 @@
             view.UseVisualStyleBackColor = true;
             view.Click += view_Click;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(12, 255);
-            label3.Name = "label3";
-            label3.Size = new Size(92, 15);
-            label3.TabIndex = 5;
-            label3.Text = "Generate Report";
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Transaction Summary", "Account Usage Analysis" });
-            comboBox2.Location = new Point(110, 252);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(121, 23);
-            comboBox2.TabIndex = 6;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(12, 281);
-            button3.Name = "button3";
-            button3.Size = new Size(219, 23);
-            button3.TabIndex = 7;
-            button3.Text = "Generate";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
             // transaction
             // 
             transaction.BackColor = Color.SeaGreen;
             transaction.ForeColor = SystemColors.ButtonHighlight;
-            transaction.Location = new Point(40, 349);
+            transaction.Location = new Point(40, 251);
             transaction.Name = "transaction";
             transaction.Size = new Size(163, 30);
             transaction.TabIndex = 8;
@@ -160,17 +130,25 @@
             label4.TabIndex = 10;
             label4.Text = "Notifications";
             // 
+            // btnLogout
+            // 
+            btnLogout.Location = new Point(40, 368);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(202, 40);
+            btnLogout.TabIndex = 11;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
+            // 
             // Admin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(651, 450);
+            Controls.Add(btnLogout);
             Controls.Add(label4);
             Controls.Add(listBox1);
             Controls.Add(transaction);
-            Controls.Add(button3);
-            Controls.Add(comboBox2);
-            Controls.Add(label3);
             Controls.Add(view);
             Controls.Add(suspend);
             Controls.Add(comboBox1);
@@ -193,11 +171,10 @@
         private ComboBox comboBox1;
         private Button suspend;
         private Button view;
-        private Label label3;
-        private ComboBox comboBox2;
-        private Button button3;
         private Button transaction;
         private ListBox listBox1;
         private Label label4;
+        private Button button1;
+        private Button btnLogout;
     }
 }

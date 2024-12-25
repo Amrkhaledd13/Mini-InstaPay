@@ -10,7 +10,7 @@ namespace GUI_mini_insta
     {
         public newOffersNot(string s, string m) : base(s, m) { }
 
-        public void sendnotification()
+        public override void sendnotification()
         {
             Users u = Users.getUsers();
             foreach (var key in u.UsersWithPhone.Keys)

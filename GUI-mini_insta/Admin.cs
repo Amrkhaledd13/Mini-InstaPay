@@ -16,9 +16,7 @@ namespace GUI_mini_insta
     public partial class Admin : Form
     {
         Users user = Users.getUsers();
-        User s = new User("3", "adw", "ali@gmail.com", "010", "adsf", "12345678");
-        User z = new User("3", "zs", "op@gmail.com", "123", "cxv", "12345678");
-        Manager manager = new Manager();
+        Manager manager = Manager.getMan();
         public Admin()
         {
             InitializeComponent();
@@ -39,13 +37,14 @@ namespace GUI_mini_insta
         private void view_Click(object sender, EventArgs e)
         {
             string selectedText = comboBox1.SelectedItem.ToString();
-            UserProfile up=new UserProfile(selectedText);
+            UserProfile up = new UserProfile(selectedText);
             up.Show();
         }
 
         private void transaction_Click(object sender, EventArgs e)
         {
-
+            Transaction t = new Transaction();
+            t.Show();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -54,28 +53,39 @@ namespace GUI_mini_insta
         }
         private void Admin_Load(object sender, EventArgs e)
         {
-            user.UsersWithEmail.Add(s.Email, s);
-            user.UsersWithEmail.Add(z.Email, z);
-            
-            manager.issues[s.Email] = new List<string>();
-            manager.issues[z.Email] = new List<string>();
-            manager.issues[s.Email].Add("ktfk");
-            manager.issues[z.Email].Add("7mamtak");
+
             foreach (string email in user.UsersWithEmail.Keys)
             {
                 comboBox1.Items.Add(email);
             }
             foreach (var issues in manager.issues)
             {
-                for (int i=0;i<issues.Value.Count;i++)
+                for (int i = 0; i < issues.Value.Count; i++)
                 {
                     listBox1.Items.Add($"[{issues.Key}]: {issues.Value[i]}");
                 }
-                
+
             }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Logout clicked!");
+            Login login = new Login();
+
+            // Show the LoginForm
+            login.Show();
+
+            // Close or hide the current RegisterForm
+            this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

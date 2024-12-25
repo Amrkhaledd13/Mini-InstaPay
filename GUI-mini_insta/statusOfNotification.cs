@@ -11,7 +11,7 @@ namespace GUI_mini_insta
     {
         public statusOfNotification(string s,string m) : base(s,m) { }
 
-        public void sendnotification() {
+        public override void sendnotification() {
             Users u = Users.getUsers();
             u.UsersWithPhone[phone].mynotifictions.Add(message);
         }

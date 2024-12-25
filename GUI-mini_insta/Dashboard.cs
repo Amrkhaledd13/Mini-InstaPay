@@ -101,7 +101,7 @@ namespace GUI_mini_insta
                     MessageBox.Show("Invalid money amount.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                BankAccounts acc = new BankAccounts(txtCardNumber.Text, int.Parse(txtInitialMoney.Text), txtBankName.Text);
+                BankAccounts acc = new BankAccounts(txtCardNumber.Text, int.Parse(txtInitialMoney.Text), txtBankName.Text,loggedInUser.Phone);
                 loggedInUser.Addaccount(acc);
                 MessageBox.Show($"Account Added:\nBank: {txtBankName.Text}\nCard Number: {txtCardNumber.Text}\nInitial Money: {initialMoney:C}",
                                 "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -151,7 +151,7 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (you should replace this with actual data)
-            cmbCards.Items.Add("amr");
+            cmbCards.Items.Add("Choose your bank card number");
             for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
                 cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber());
@@ -232,7 +232,7 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (replace with actual data)
-            cmbCards.Items.Add("amr");
+            cmbCards.Items.Add("Choose your bank card number");
             for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
                 cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber());
@@ -288,7 +288,7 @@ namespace GUI_mini_insta
                 // Handle account update logic here
                 string oldCard = cmbCards.SelectedItem.ToString();
                 string newCard = txtAccountNumber.Text;
-                loggedInUser.updateaccount(cmbCards.SelectedItem.ToString(),newCard);
+                loggedInUser.updateaccount(cmbCards.SelectedItem.ToString(), newCard);
                 MessageBox.Show($"Account updated from {oldCard} to {newCard}.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Optionally, update the combo box item
@@ -337,7 +337,7 @@ namespace GUI_mini_insta
             };
 
             // Add sample banks (replace with actual data)
-            cmbBanks.Items.Add("amr");
+            cmbBanks.Items.Add("Choose Your Bank account name");
             for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
                 cmbBanks.Items.Add(loggedInUser.myaccounts[i].getbankname());
@@ -408,10 +408,10 @@ namespace GUI_mini_insta
 
                 // Handle sending logic here
                 string bankName = cmbBanks.SelectedItem.ToString();
-                Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, txtPhoneNumber.Text , int.Parse(txtAmount.Text) , bankName,false);
+                Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, txtPhoneNumber.Text, int.Parse(txtAmount.Text), bankName, false);
                 MessageBox.Show($"Money sent successfully!\n\nBank: {bankName}\nAmount: {amount}\nPhone: {txtPhoneNumber.Text}",
                     "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MessageBox.Show((loggedInUser.myaccounts.Find(a => a.getbankname() == bankName)?.getamount() ?? 0).ToString(), "New");
+                MessageBox.Show((loggedInUser.myaccounts.Find(a => a.getbankname() == bankName)?.getamount() ?? 0).ToString(), "Your new ammount of money");
 
             };
 
@@ -459,7 +459,7 @@ namespace GUI_mini_insta
             };
 
             // Add sample banks (replace with actual data)
-            cmbBanks.Items.Add("amr");
+            cmbBanks.Items.Add("Choose your bank account name");
             for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
                 cmbBanks.Items.Add(loggedInUser.myaccounts[i].getbankname());
@@ -559,13 +559,6 @@ namespace GUI_mini_insta
             string userPhone = loggedInUser.Phone;
             string userAddress = loggedInUser.Address;
 
-            string[] notifications =
-            {
-                "Your transaction of $500 was successful.",
-                "Your account balance is low.",
-                "New offer available on your linked card."
-            };
-
             // Display user information with TextBoxes
             int textBoxY = 70;
             string[] labels = { "Name:", "Email:", "Phone:", "Address:" };
@@ -590,13 +583,68 @@ namespace GUI_mini_insta
                     Font = new Font("Segoe UI", 12F, FontStyle.Regular),
                     ForeColor = Color.Black,
                     Location = new Point(150, textBoxY),
-                    Size = new Size(300, 30)
+                    Size = new Size(300, 30),
+                    ReadOnly = (i == 1 || i == 2) // Set ReadOnly to true for Email and Phone fields
                 };
                 textBoxes[i] = txtField; // Store text boxes for future updates
                 panelContent.Controls.Add(txtField);
 
                 textBoxY += 40;
             }
+
+            // Add a ComboBox and a Label
+            Label lblComboBox = new Label
+            {
+                Text = "Select Role:",
+                Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                ForeColor = Color.Black,
+                Location = new Point(20, textBoxY),
+                Size = new Size(120, 30)
+            };
+            panelContent.Controls.Add(lblComboBox);
+
+            ComboBox comboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                Location = new Point(150, textBoxY),
+                Size = new Size(300, 30),
+                DropDownStyle = ComboBoxStyle.DropDownList // Prevent user from typing custom values
+            };
+            comboBox.Items.Add("Choose your bank account name");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
+            {
+                comboBox.Items.Add(loggedInUser.myaccounts[i].getbankname());
+            }
+            comboBox.SelectedIndex = 0; // Set a default selection
+            panelContent.Controls.Add(comboBox);
+
+            textBoxY += 50; // Adjust for next control placement
+
+            // Add a label to display the amount
+            Label lblAmount = new Label
+            {
+                Text = "Amount: $0.00",
+                Font = new Font("Segoe UI", 12F, FontStyle.Regular),
+                ForeColor = Color.Black,
+                Location = new Point(20, textBoxY),
+                Size = new Size(400, 30)
+            };
+            panelContent.Controls.Add(lblAmount);
+
+            // Update the amount based on the ComboBox selection
+            comboBox.SelectedIndexChanged += (s, ev) =>
+            {
+                string selectedRole = comboBox.SelectedItem.ToString();
+                string amountText="Amount: ";
+               
+                // Determine amount based on the selected role
+                        amountText += (loggedInUser.myaccounts.Find(a => a.getbankname() == selectedRole)?.getamount() ?? 0).ToString();
+             
+
+                lblAmount.Text = amountText;
+            };
+
+            textBoxY += 40; // Adjust for next control placement
 
             // Add an Update button
             Button btnUpdate = new Button
@@ -607,18 +655,16 @@ namespace GUI_mini_insta
                 ForeColor = Color.Black,
                 Location = new Point(150, textBoxY + 20),
                 Size = new Size(100, 40),
-                //FlatStyle = FlatStyle.Flat
             };
             btnUpdate.FlatAppearance.BorderSize = 0;
             btnUpdate.Click += (s, ev) =>
             {
                 // Update logic
                 string updatedName = textBoxes[0].Text;
-                string updatedEmail = textBoxes[1].Text;
-                string updatedPhone = textBoxes[2].Text;
                 string updatedAddress = textBoxes[3].Text;
-                loggedInUser.UpdateProfile(updatedEmail,updatedName,updatedAddress,updatedPhone);
-                MessageBox.Show($"Updated Info:\nName: {updatedName}\nEmail: {updatedEmail}\nPhone: {updatedPhone}\nAddress: {updatedAddress}",
+                string selectedRole = comboBox.SelectedItem.ToString();
+                loggedInUser.UpdateProfile(userEmail, updatedName, updatedAddress, userPhone);
+                MessageBox.Show($"Updated Info:\nName: {updatedName}\nEmail: {userEmail}\nPhone: {userPhone}\nAddress: {updatedAddress}\nRole: {selectedRole}",
                     "Update Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
             };
             panelContent.Controls.Add(btnUpdate);
@@ -660,6 +706,8 @@ namespace GUI_mini_insta
                 notificationY += 30;
             }
         }
+
+
 
         private void BtnMyTransactions_Click(object sender, EventArgs e)
         {
@@ -738,7 +786,7 @@ namespace GUI_mini_insta
         }
         private void BtnLogout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Logout clicked!");
+            MessageBox.Show("Logged out Successfully!");
             Login dash = new Login();
 
             // Show the LoginForm
@@ -808,7 +856,7 @@ namespace GUI_mini_insta
                 Font = new Font("Segoe UI", 10F, FontStyle.Regular),
                 //FlatStyle = FlatStyle.Flat
             };
-            Manager admin = new Manager();
+            Manager admin = Manager.getMan();
             // Add click event for the Send button
             btnSend.Click += (s, args) =>
             {
@@ -824,14 +872,19 @@ namespace GUI_mini_insta
                     "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (!admin.issues.ContainsKey(loggedInUser.Email))
                 {
-                    admin.issues[loggedInUser.Email]=new List<string>();
+                    admin.issues.Add(loggedInUser.Email, new List<string>());
                 }
-                admin.issues[loggedInUser.Email].Add(userProblem) ;
+                admin.issues[loggedInUser.Email].Add(userProblem);
                 // Optionally clear the TextBox after sending
                 txtProblem.Clear();
             };
 
             panelContent.Controls.Add(btnSend);
+        }
+
+        private void panelContent_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
