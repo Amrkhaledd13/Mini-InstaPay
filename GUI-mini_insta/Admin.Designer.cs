@@ -78,6 +78,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 2;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // suspend
             // 
@@ -176,6 +177,7 @@
             Controls.Add(panel1);
             Name = "Admin";
             Text = "Admin";
+            Load += Admin_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);

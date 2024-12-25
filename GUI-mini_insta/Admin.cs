@@ -1,20 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GUI_mini_insta
 {
     public partial class Admin : Form
     {
+        Users user = Users.getUsers();
+        User s = new User("3","adw","ali@gmail.com","010","adsf","12345678");
+        User z = new User("3", "zs", "op@gmail.com", "123", "cxv", "12345678");
+        
         public Admin()
         {
             InitializeComponent();
@@ -27,6 +30,9 @@ namespace GUI_mini_insta
 
         private void suspend_Click(object sender, EventArgs e)
         {
+            string selectedText = comboBox1.SelectedItem.ToString();
+            Manager manager = new Manager();
+            manager.Execute(user.UsersWithEmail[selectedText]);
 
         }
 
@@ -36,36 +42,22 @@ namespace GUI_mini_insta
         }
 
         private void transaction_Click(object sender, EventArgs e)
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GUI_mini_insta
-{
-    internal class Admin:Command
-    {
-        public Users Usersprogram = Users.getUsers();
-
-        Dictionary<User, string> strings;
-        public void Execute()
         {
-            
+
         }
-        public void Undo()
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+        private void Admin_Load(object sender, EventArgs e)
+        {
+            user.UsersWithEmail.Add(s.Email,s);
+            user.UsersWithEmail.Add(z.Email ,z);
+            foreach (string email in user.UsersWithEmail.Keys)
+            {
+                comboBox1.Items.Add(email);
+            }
         }
     }
 }

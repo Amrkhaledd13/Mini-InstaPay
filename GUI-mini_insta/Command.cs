@@ -8,8 +8,7 @@ namespace GUI_mini_insta
 {
     internal interface Command
     {
-            void Execute();
-            void Undo();
+            void Execute(User z);
        
     }
 }

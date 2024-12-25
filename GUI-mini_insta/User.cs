@@ -19,7 +19,7 @@ namespace GUI_mini_insta
         public string Address { get; set; }
         public string PasswordHash { get; set; }
         public bool suspended { get; set; }
-
+        
         private int limit;
 
         public List<BankAccounts> myaccounts = new List<BankAccounts>();
@@ -33,7 +33,7 @@ namespace GUI_mini_insta
             Phone = _phone;
             Address = _address;
             PasswordHash = _password;
-            suspended = true;
+            suspended = false;
             limit = 5000; // initial value of limit
         }
 

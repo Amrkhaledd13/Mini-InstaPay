@@ -61,3 +61,4 @@ D:\DPS\Mini-InstaPay\GUI-mini_insta\obj\Debug\net6.0-windows\GUI-mini_insta.pdb
 D:\DPS\Mini-InstaPay\GUI-mini_insta\obj\Debug\net6.0-windows\GUI-mini_insta.genruntimeconfig.cache
 D:\DPS\Mini-InstaPay\GUI-mini_insta\obj\Debug\net6.0-windows\ref\GUI-mini_insta.dll
 D:\DPS\Mini-InstaPay\GUI-mini_insta\obj\Debug\net6.0-windows\GUI_mini_insta.Dashboard.resources
+D:\DPS\Mini-InstaPay\GUI-mini_insta\obj\Debug\net6.0-windows\GUI_mini_insta.Admin.resources
