@@ -55,7 +55,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold);
             label1.Location = new Point(150, 14);
             label1.Name = "label1";
             label1.Size = new Size(347, 32);
@@ -148,11 +148,12 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(252, 274);
             listBox1.TabIndex = 9;
+            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold);
             label4.Location = new Point(380, 80);
             label4.Name = "label4";
             label4.Size = new Size(135, 30);

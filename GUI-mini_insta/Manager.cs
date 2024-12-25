@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace GUI_mini_insta
 {
-    internal class Manager:Command
+    internal class Manager : Command
     {
 
-        public void Execute(User s) 
+        public void Execute(User s)
         {
             if (s.suspended == false)
             {
@@ -23,5 +23,6 @@ namespace GUI_mini_insta
             }
         }
 
+        public Dictionary<string,List<string>> issues = new Dictionary<string, List<string>>();
     }
 }

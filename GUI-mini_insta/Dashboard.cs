@@ -808,7 +808,7 @@ namespace GUI_mini_insta
                 Font = new Font("Segoe UI", 10F, FontStyle.Regular),
                 //FlatStyle = FlatStyle.Flat
             };
-
+            Manager admin = new Manager();
             // Add click event for the Send button
             btnSend.Click += (s, args) =>
             {
@@ -822,7 +822,11 @@ namespace GUI_mini_insta
                 string userProblem = txtProblem.Text;
                 MessageBox.Show("Your issue has been sent successfully.\n\nIssue Details:\n" + userProblem,
                     "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                if (!admin.issues.ContainsKey(loggedInUser.Email))
+                {
+                    admin.issues[loggedInUser.Email]=new List<string>();
+                }
+                admin.issues[loggedInUser.Email].Add(userProblem) ;
                 // Optionally clear the TextBox after sending
                 txtProblem.Clear();
             };

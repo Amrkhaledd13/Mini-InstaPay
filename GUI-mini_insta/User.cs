@@ -19,7 +19,6 @@ namespace GUI_mini_insta
         public string Address { get; set; }
         public string PasswordHash { get; set; }
         public bool suspended { get; set; }
-        
         private int limit;
 
         public List<BankAccounts> myaccounts = new List<BankAccounts>();
