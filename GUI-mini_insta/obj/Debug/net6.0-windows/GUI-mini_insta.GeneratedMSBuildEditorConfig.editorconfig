@@ -14,6 +14,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GUI_mini_insta
+<<<<<<< HEAD
 build_property.ProjectDir = F:\pr\Mini-InstaPay\GUI-mini_insta\
+=======
+build_property.ProjectDir = D:\DPS\Mini-InstaPay\GUI-mini_insta\
+>>>>>>> origin/user_module
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

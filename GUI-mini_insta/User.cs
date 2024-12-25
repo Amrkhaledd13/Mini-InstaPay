@@ -104,8 +104,41 @@ namespace GUI_mini_insta
             return limit;
         }
 
-        
 
+        public void UpdateProfile(string email, string? newName = null, string? newAddress = null, string? newPhone = null)
+        {
+            /*if (!Usersprogram.UsersWithEmail.ContainsKey(email))
+            {
+                Console.WriteLine("User not found.");
+                return;
+            }
+            
+            User user = Usersprogram.UsersWithEmail[email];*/
+
+            // Update fields only if new values are provided
+            if (!string.IsNullOrEmpty(newName))
+            {
+                Name = newName;
+                Console.WriteLine($"Name updated to: {Name}");
+            }
+
+            if (!string.IsNullOrEmpty(newPhone))
+            {
+                Phone = newPhone;
+                Console.WriteLine($"Phone updated to: {Phone}");
+            }
+
+            if (!string.IsNullOrEmpty(newAddress))
+            {
+                Address = newAddress;
+                Console.WriteLine($"Address updated to: {Address}");
+            }
+
+            if (string.IsNullOrEmpty(newName) && string.IsNullOrEmpty(newPhone) && string.IsNullOrEmpty(newAddress))
+            {
+                Console.WriteLine("No updates provided.");
+            }
+        }
 
 
 
