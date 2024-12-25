@@ -138,9 +138,10 @@
             label9.AutoSize = true;
             label9.Location = new Point(115, 309);
             label9.Name = "label9";
-            label9.Size = new Size(38, 15);
+            label9.Size = new Size(13, 15);
             label9.TabIndex = 10;
-            label9.Text = "label9";
+            label9.Text = "0";
+            label9.Click += label9_Click_1;
             // 
             // UserProfile
             // 

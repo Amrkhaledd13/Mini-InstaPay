@@ -94,5 +94,10 @@ namespace GUI_mini_insta
         {
 
         }
+
+        private void label9_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

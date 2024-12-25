@@ -337,7 +337,7 @@ namespace GUI_mini_insta
             };
 
             // Add sample banks (replace with actual data)
-            cmbBanks.Items.Add("Choose Your Bank account name");
+            cmbBanks.Items.Add("Choose Your Phone connected with bank account");
             for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
             {
                 cmbBanks.Items.Add(loggedInUser.myaccounts[i].getbankname());
@@ -525,6 +525,7 @@ namespace GUI_mini_insta
                 Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, txtAccount.Text, int.Parse(txtAmount.Text), bankName, true);
                 MessageBox.Show($"Money sent successfully!\n\nBank: {bankName}\nAmount: {amount}\nAccount: {txtAccount.Text}",
                     "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show((loggedInUser.myaccounts.Find(a => a.getbankname() == bankName)?.getamount() ?? 0).ToString(), "Your new ammount of money");
             };
 
             // Add controls to the panel

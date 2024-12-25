@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GUI-mini_insta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c6d1fb9ccaea1434ac6b6185005486b6ce822c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea1e903351bc80a70c39c2a434fc033dc5741d6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("GUI-mini_insta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GUI-mini_insta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

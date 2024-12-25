@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ali khaled\\.nuget\\packages\\": {}
+    "C:\\Users\\ali\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+      "projectUniqueName": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
       "projectName": "GUI-mini_insta",
-      "projectPath": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
-      "packagesPath": "C:\\Users\\ali khaled\\.nuget\\packages\\",
-      "outputPath": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\obj\\",
+      "projectPath": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+      "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ali\\Documents\\GitHub\\Mini-InstaPay\\GUI-mini_insta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ali khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -47,18 +47,18 @@ namespace GUI_mini_insta
             EncryptionManager encryptionManager = new EncryptionManager();
             string encryptedAmount = encryptionManager.Encrypt(amount.ToString());
             string encryptedBankName = encryptionManager.Encrypt(bankname);
-            string accountnumbe = encryptionManager.Encrypt(accountnumber);
-            MessageBox.Show(accountnumbe,"title");
-            if (!System_BankAccounts.bnkacounts.ContainsKey(accountnumbe))
+            //string accountnumbe = encryptionManager.Encrypt(accountnumber);
+/*            MessageBox.Show(accountnumber, "title");
+            if (!System_BankAccounts.bnkacounts.ContainsKey(accountnumber))
             {
-               
+
                 foreach (var s in System_BankAccounts.bnkacounts)
                 {
                     MessageBox.Show(s.Key, "title");
                 }
                 return;
-            }
-            BankAccounts account = System_BankAccounts.bnkacounts[accountnumbe];
+            }*/
+            BankAccounts account = System_BankAccounts.bnkacounts[accountnumber];
             User user = users.UsersWithPhone[account.getphone()];
             BankAccounts senderaccount = sender.myaccounts.Find(a => a.getbankname() == bankname);
             sender.mytransactions.Add(new Transactions(sender.Email, user.Email, int.Parse(encryptionManager.Decrypt(encryptedAmount))));
