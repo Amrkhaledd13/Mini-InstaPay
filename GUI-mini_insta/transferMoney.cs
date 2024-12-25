@@ -21,6 +21,7 @@ namespace GUI_mini_insta
        public void sendwithphonenumber(User sender,string phonenumber ,int amount ,string bankname)
         {
            User reciever = users.UsersWithPhone[phonenumber];
+            MessageBox.Show(phonenumber, "transfer");
            BankAccounts account =  reciever.getthedeafult();
            BankAccounts senderaccount =  sender.myaccounts.Find(a => a.getbankname() == bankname);
             sender.mytransactions.Add(new Transactions(sender.Email, reciever.Email, amount));
@@ -44,8 +45,7 @@ namespace GUI_mini_insta
 
         void recieve(User receiver,BankAccounts account,int amount,string phone) {
             System_BankAccounts.bnkacounts[account.getaccountnumber()].recieveamout(amount);
-            var acc = receiver.myaccounts.Find(a => a.getaccountnumber() == account.getaccountnumber());
-            acc.recieveamout(amount);
+            
             notificationFactory.createnotifications("status", $"An amount of {amount} pounds was received from {phone}", receiver.Phone);
 
         }
