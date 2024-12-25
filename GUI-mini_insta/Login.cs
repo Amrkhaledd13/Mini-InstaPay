@@ -21,7 +21,7 @@ namespace GUI_mini_insta
         {
             InitializeComponent();
             _proxyUser = new ProxyUser();
-
+            
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

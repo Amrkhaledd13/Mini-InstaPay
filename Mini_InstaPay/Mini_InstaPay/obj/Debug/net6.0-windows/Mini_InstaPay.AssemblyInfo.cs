@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mini_InstaPay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2923021825d2d85156b37a352c193b0715e894cd")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+340f619b52cf296e216c012aae568f53842ea6f1")]
+>>>>>>> origin/user_module
 [assembly: System.Reflection.AssemblyProductAttribute("Mini_InstaPay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mini_InstaPay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

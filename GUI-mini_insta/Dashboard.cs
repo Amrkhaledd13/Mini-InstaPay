@@ -617,7 +617,7 @@ namespace GUI_mini_insta
                 string updatedEmail = textBoxes[1].Text;
                 string updatedPhone = textBoxes[2].Text;
                 string updatedAddress = textBoxes[3].Text;
-
+                loggedInUser.UpdateProfile(updatedEmail,updatedName,updatedAddress,updatedPhone);
                 MessageBox.Show($"Updated Info:\nName: {updatedName}\nEmail: {updatedEmail}\nPhone: {updatedPhone}\nAddress: {updatedAddress}",
                     "Update Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
             };
@@ -645,7 +645,7 @@ namespace GUI_mini_insta
 
             // Display notifications
             int notificationY = textBoxY + 140;
-            foreach (string notification in notifications)
+            foreach (string notification in loggedInUser.mynotifictions)
             {
                 Label lblNotification = new Label
                 {
@@ -711,9 +711,9 @@ namespace GUI_mini_insta
             startY += 40;
 
             // Display transaction rows
-            foreach (var transaction in transactions)
+            foreach (var transaction in loggedInUser.mytransactions)
             {
-                string[] rowValues = { transaction.Date, transaction.SenderEmail, transaction.Amount, transaction.ReceiverEmail };
+                string[] rowValues = { transaction.dateTime.ToString(), transaction.senderEmail, transaction.amount.ToString(), transaction.receiverEmail };
 
                 for (int i = 0; i < rowValues.Length; i++)
                 {

@@ -8,9 +8,9 @@ namespace GUI_mini_insta
 {
     public class Transactions
     {
-        string senderEmail, receiverEmail;
-        DateTime dateTime;
-        int  amount;
+        public string senderEmail, receiverEmail;
+        public DateTime dateTime;
+        public int  amount;
         
         public Transactions( string _sender, string _receiver,int _amount)
         {

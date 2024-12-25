@@ -119,6 +119,7 @@
             lblMessage.TabIndex = 8;
             lblMessage.Text = "Email";
             lblMessage.Visible = false;
+            lblMessage.Click += lblMessage_Click;
             // 
             // Login
             // 
