@@ -1,78 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\",
+  "WorkspaceRootPath": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:proxyuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|d:\\dps\\mini-instapay\\gui-mini_insta\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|f:\\pr\\mini-instapay\\gui-mini_insta\\sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:sendmoney_proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\realuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:realuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:transfermoney.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|f:\\pr\\mini-instapay\\gui-mini_insta\\gui-mini_insta.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:gui-mini_insta.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|f:\\pr\\mini-instapay\\gui-mini_insta\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|f:\\pr\\mini-instapay\\gui-mini_insta\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\encryptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:encryptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\notificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:notificationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\statusofnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:statusofnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\newoffersnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:newoffersnot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\lowbalancenot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:lowbalancenot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{933B054B-7FD9-429B-80FB-D16AE594CE58}|GUI-mini_insta.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +93,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,237 +101,270 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T00:13:30.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs [Design]",
-              "RelativeToolTip": "Dashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:47:41.795Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:47:40.616Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Manager.cs",
-              "RelativeDocumentMoniker": "Manager.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Manager.cs",
-              "RelativeToolTip": "Manager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:45:25.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Command.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Command.cs",
-              "RelativeDocumentMoniker": "Command.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Command.cs",
-              "RelativeToolTip": "Command.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:26:00.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Admin.cs [Design]",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Admin.cs [Design]",
-              "RelativeToolTip": "Admin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:43:05.883Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Admin.cs",
-              "RelativeToolTip": "Admin.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAADwvyIAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:23:34.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:54:41.708Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProxyUser.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\ProxyUser.cs",
-              "RelativeDocumentMoniker": "ProxyUser.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\ProxyUser.cs",
-              "RelativeToolTip": "ProxyUser.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAIwFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:00:11.872Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
-              "RelativeDocumentMoniker": "Dashboard.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
-              "RelativeToolTip": "Dashboard.cs",
-              "ViewState": "AQIAANgCAAAAAAAAAADwv+QCAAAMAAAA",
+              "Title": "ProxyUser.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\ProxyUser.cs",
+              "RelativeDocumentMoniker": "ProxyUser.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\ProxyUser.cs",
+              "RelativeToolTip": "ProxyUser.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAmwI4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:48:02.005Z",
+              "WhenOpened": "2024-12-24T17:07:41.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Users.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Users.cs",
-              "RelativeDocumentMoniker": "Users.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Users.cs",
-              "RelativeToolTip": "Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
+              "DocumentIndex": 4,
+              "Title": "transferMoney.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\transferMoney.cs",
+              "RelativeDocumentMoniker": "transferMoney.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\transferMoney.cs",
+              "RelativeToolTip": "transferMoney.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowB8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T21:56:11.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:00:09.395Z",
+              "WhenOpened": "2024-12-24T19:27:16.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACgAAAAbAAAA",
+              "Title": "notificationFactory.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\notificationFactory.cs",
+              "RelativeDocumentMoniker": "notificationFactory.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\notificationFactory.cs",
+              "RelativeToolTip": "notificationFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:54:47.523Z",
+              "WhenOpened": "2024-12-24T20:49:04.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:40:54.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:38:01.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
+              "RelativeToolTip": "Dashboard.cs",
+              "ViewState": "AQIAAL8BAAAAAAAAAAAkwMsBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:03:08.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T21:45:57.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GUI-mini_insta",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+              "RelativeDocumentMoniker": "GUI-mini_insta.csproj",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\GUI-mini_insta.csproj",
+              "RelativeToolTip": "GUI-mini_insta.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-24T21:47:23.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sendmoney_Proxy.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Sendmoney_Proxy.cs",
+              "RelativeDocumentMoniker": "Sendmoney_Proxy.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Sendmoney_Proxy.cs",
+              "RelativeToolTip": "Sendmoney_Proxy.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T21:04:56.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAUwEAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:06:13.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Notifications.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Notifications.cs",
+              "RelativeDocumentMoniker": "Notifications.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Notifications.cs",
+              "RelativeToolTip": "Notifications.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T18:24:26.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T21:45:46.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AQIAAPwAAAAAAAAAAAASwAkBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-24T21:48:08.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "statusOfNotification.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\statusOfNotification.cs",
+              "RelativeDocumentMoniker": "statusOfNotification.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\statusOfNotification.cs",
+              "RelativeToolTip": "statusOfNotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T19:45:32.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Transactions.cs",
+              "RelativeDocumentMoniker": "Transactions.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Transactions.cs",
+              "RelativeToolTip": "Transactions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T20:49:22.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Transactions.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Transactions.cs",
-              "RelativeDocumentMoniker": "Transactions.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\Transactions.cs",
-              "RelativeToolTip": "Transactions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Title": "lowbalanceNot.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\lowbalanceNot.cs",
+              "RelativeDocumentMoniker": "lowbalanceNot.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\lowbalanceNot.cs",
+              "RelativeToolTip": "lowbalanceNot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:09:41.877Z"
+              "WhenOpened": "2024-12-24T19:58:53.176Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "transferMoney.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\transferMoney.cs",
-              "RelativeDocumentMoniker": "transferMoney.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\transferMoney.cs",
-              "RelativeToolTip": "transferMoney.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Title": "newOffersNot.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\newOffersNot.cs",
+              "RelativeDocumentMoniker": "newOffersNot.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\newOffersNot.cs",
+              "RelativeToolTip": "newOffersNot.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:09:41.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BankAccounts.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\BankAccounts.cs",
-              "RelativeDocumentMoniker": "BankAccounts.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\BankAccounts.cs",
-              "RelativeToolTip": "BankAccounts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:00:25.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T19:59:36.492Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "EncryptionManager.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\EncryptionManager.cs",
-              "RelativeDocumentMoniker": "EncryptionManager.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\EncryptionManager.cs",
-              "RelativeToolTip": "EncryptionManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Users.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Users.cs",
+              "RelativeDocumentMoniker": "Users.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Users.cs",
+              "RelativeToolTip": "Users.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:00:22.017Z"
+              "WhenOpened": "2024-12-24T20:30:42.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RealUser.cs",
-              "DocumentMoniker": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\RealUser.cs",
-              "RelativeDocumentMoniker": "RealUser.cs",
-              "ToolTip": "D:\\DPS\\Mini-InstaPay\\GUI-mini_insta\\RealUser.cs",
-              "RelativeToolTip": "RealUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "DocumentIndex": 18,
+              "Title": "Register.cs",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Register.cs",
+              "RelativeDocumentMoniker": "Register.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Register.cs",
+              "RelativeToolTip": "Register.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAADwvz4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T22:00:15.006Z"
+              "WhenOpened": "2024-12-24T17:28:35.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Login.cs [Design]",
+              "RelativeToolTip": "Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:06:02.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "F:\\pr\\Mini-InstaPay\\GUI-mini_insta\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:59:59.86Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -181,6 +181,7 @@ namespace GUI_mini_insta
 
                 // Handle card removal logic here
                 string selectedCard = cmbCards.SelectedItem.ToString();
+                loggedInUser.Removeaccount(selectedCard);
                 MessageBox.Show($"Card {selectedCard} removed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Optionally, remove the card from the ComboBox
@@ -231,9 +232,14 @@ namespace GUI_mini_insta
             };
 
             // Add sample cards (replace with actual data)
-            cmbCards.Items.Add("1234-5678-9012-3456");
+            cmbCards.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
+            {
+                cmbCards.Items.Add(loggedInUser.myaccounts[i].getaccountnumber());
+            }
+            /*cmbCards.Items.Add("1234-5678-9012-3456");
             cmbCards.Items.Add("9876-5432-1098-7654");
-            cmbCards.Items.Add("4567-8901-2345-6789");
+            cmbCards.Items.Add("4567-8901-2345-6789");*/
             cmbCards.SelectedIndex = 0; // Select the first item by default
 
             // Label for account number
@@ -255,7 +261,9 @@ namespace GUI_mini_insta
             // Update TextBox placeholder on card selection change
             cmbCards.SelectedIndexChanged += (s, args) =>
             {
-                txtAccountNumber.Text = cmbCards.SelectedItem.ToString();
+                txtAccountNumber.Text = loggedInUser.myaccounts
+    .Find(a => a.getaccountnumber() == cmbCards.SelectedItem.ToString())
+    ?.getbankname() ?? "Bank Name";
             };
 
             // Update Button
@@ -280,11 +288,12 @@ namespace GUI_mini_insta
                 // Handle account update logic here
                 string oldCard = cmbCards.SelectedItem.ToString();
                 string newCard = txtAccountNumber.Text;
+                loggedInUser.updateaccount(cmbCards.SelectedItem.ToString(),newCard);
                 MessageBox.Show($"Account updated from {oldCard} to {newCard}.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Optionally, update the combo box item
-                int selectedIndex = cmbCards.SelectedIndex;
-                cmbCards.Items[selectedIndex] = newCard;
+                /*int selectedIndex = cmbCards.SelectedIndex;
+                cmbCards.Items[selectedIndex] = newCard;*/
             };
 
             // Add controls to the panel
@@ -328,9 +337,11 @@ namespace GUI_mini_insta
             };
 
             // Add sample banks (replace with actual data)
-            cmbBanks.Items.Add("Bank A");
-            cmbBanks.Items.Add("Bank B");
-            cmbBanks.Items.Add("Bank C");
+            cmbBanks.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
+            {
+                cmbBanks.Items.Add(loggedInUser.myaccounts[i].getbankname());
+            }
             cmbBanks.SelectedIndex = 0; // Select the first item by default
 
             // Label for amount
@@ -389,7 +400,7 @@ namespace GUI_mini_insta
                     return;
                 }
 
-                if (!long.TryParse(txtPhoneNumber.Text, out long phoneNumber) || txtPhoneNumber.Text.Length != 10)
+                if (!long.TryParse(txtPhoneNumber.Text, out long phoneNumber) || txtPhoneNumber.Text.Length < 10)
                 {
                     MessageBox.Show("Please enter a valid 10-digit phone number.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -397,8 +408,11 @@ namespace GUI_mini_insta
 
                 // Handle sending logic here
                 string bankName = cmbBanks.SelectedItem.ToString();
+                Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, txtPhoneNumber.Text , int.Parse(txtAmount.Text) , bankName,false);
                 MessageBox.Show($"Money sent successfully!\n\nBank: {bankName}\nAmount: {amount}\nPhone: {txtPhoneNumber.Text}",
                     "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show((loggedInUser.myaccounts.Find(a => a.getbankname() == bankName)?.getamount() ?? 0).ToString(), "New");
+
             };
 
             // Add controls to the panel
@@ -445,9 +459,11 @@ namespace GUI_mini_insta
             };
 
             // Add sample banks (replace with actual data)
-            cmbBanks.Items.Add("Bank A");
-            cmbBanks.Items.Add("Bank B");
-            cmbBanks.Items.Add("Bank C");
+            cmbBanks.Items.Add("amr");
+            for (int i = 0; i < loggedInUser.myaccounts.Count; i++)
+            {
+                cmbBanks.Items.Add(loggedInUser.myaccounts[i].getbankname());
+            }
             cmbBanks.SelectedIndex = 0; // Select the first item by default
 
             // Label for amount
@@ -506,6 +522,7 @@ namespace GUI_mini_insta
 
                 // Handle sending logic here
                 string bankName = cmbBanks.SelectedItem.ToString();
+                Sendmoney_Proxy.sendwithphoneproxy(loggedInUser, txtAccount.Text, int.Parse(txtAmount.Text), bankName, true);
                 MessageBox.Show($"Money sent successfully!\n\nBank: {bankName}\nAmount: {amount}\nAccount: {txtAccount.Text}",
                     "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             };
@@ -537,10 +554,10 @@ namespace GUI_mini_insta
             panelContent.Controls.Add(lblTitle);
 
             // Simulated user data (replace these with actual user data from your source)
-            string userName = "John Doe";
-            string userEmail = "john.doe@example.com";
-            string userPhone = "+1234567890";
-            string userAddress = "123 Main Street, City, Country";
+            string userName = loggedInUser.Name;
+            string userEmail = loggedInUser.Email;
+            string userPhone = loggedInUser.Phone;
+            string userAddress = loggedInUser.Address;
 
             string[] notifications =
             {
@@ -722,6 +739,13 @@ namespace GUI_mini_insta
         private void BtnLogout_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Logout clicked!");
+            Login dash = new Login();
+
+            // Show the LoginForm
+            dash.Show();
+
+            // Close or hide the current RegisterForm
+            this.Hide();
         }
 
         private void BtnLogout_MouseEnter(object sender, EventArgs e)
