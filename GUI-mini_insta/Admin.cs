@@ -36,5 +36,10 @@ namespace GUI_mini_insta
         {
 
         }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -176,6 +176,7 @@
             Controls.Add(panel1);
             Name = "Admin";
             Text = "Admin";
+            Load += Admin_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
